@@ -1,6 +1,6 @@
 const people = [
   {
-    name: "Rőczei Gellért Dávid",
+    name: "Molnár Patrik",
     role: "Kivetelező",
     imageUrl: "/pictures/david.jpg",
     bio: "Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.",
