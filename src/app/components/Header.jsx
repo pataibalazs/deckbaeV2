@@ -46,19 +46,19 @@ const accessories = [
   {
     name: "Házak",
     description: "Modern, energiahatékony könnyűszerkezetes házak",
-    href: "/houses",
+    href: "/house-extra",
     icon: HomeModernIcon,
   },
   {
     name: "Pergolák",
     description: "Elegáns, időtálló kerti és teraszmegoldások",
-    href: "/pergolas",
+    href: "/pergola-extra",
     icon: SunIcon,
   },
   {
     name: "Garázs",
     description: "Praktikus tárolók és többcélú melléképületek",
-    href: "/garages",
+    href: "/garage-extra",
     icon: BuildingStorefrontIcon,
   },
 ];
