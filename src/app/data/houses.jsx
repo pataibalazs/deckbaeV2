@@ -2,6 +2,7 @@
 export const products = {
   "santa-cruz": {
     name: "Santa Cruz",
+    basePrice: 29380000,
     price: "Bruttó: 29.380.000-től",
     rating: 4,
     images: [
@@ -52,10 +53,43 @@ vagy befektetésnek. Lépj kapcsolatba velünk további információért!</p>
         ],
       },
     ],
+    extras: [
+      {
+        id: "sc-extra-1",
+        name: "Szauna",
+        description: "Beépített finn szauna 4-6 személy részére",
+        price: 1850000,
+      },
+      {
+        id: "sc-extra-2",
+        name: "Jakuzzi",
+        description: "Kültéri jakuzzi 4-6 személy részére",
+        price: 2200000,
+      },
+      {
+        id: "sc-extra-3",
+        name: "Napelemes rendszer",
+        description: "5kW teljesítményű napelem rendszer inverterrel",
+        price: 3500000,
+      },
+      {
+        id: "sc-extra-4",
+        name: "Hőszivattyú",
+        description: "Energiahatékony levegő-víz hőszivattyú",
+        price: 2800000,
+      },
+      {
+        id: "sc-extra-5",
+        name: "Fa padlóburkolat",
+        description: "Prémium tölgyfa padlóburkolat az SPC helyett",
+        price: 1200000,
+      },
+    ],
   },
 
   oslo: {
     name: "Oslo",
+    basePrice: 39900000,
     price: "Bruttó: 39.900.000-től",
     rating: 4,
     images: [
@@ -113,10 +147,49 @@ nyaralónak!</p>
         ],
       },
     ],
+    extras: [
+      {
+        id: "oslo-extra-1",
+        name: "Prémium konyha",
+        description: "Prémium kivitelű konyha beépített háztartási gépekkel",
+        price: 2500000,
+      },
+      {
+        id: "oslo-extra-2",
+        name: "3 méter belmagasság",
+        description: "A standard 2,7 méter helyett 3 méteres belmagasság",
+        price: 1800000,
+      },
+      {
+        id: "oslo-extra-3",
+        name: "Cseréptető",
+        description: "Prémium minőségű cseréptető a fém helyett",
+        price: 1650000,
+      },
+      {
+        id: "oslo-extra-4",
+        name: "James Hardie falburkolat",
+        description: "Tartós, időjárásálló James Hardie falburkolat",
+        price: 2100000,
+      },
+      {
+        id: "oslo-extra-5",
+        name: "Házcsatlakozású garázs",
+        description: "Egységes stílusú, fedett garázs a házhoz csatlakoztatva",
+        price: 4200000,
+      },
+      {
+        id: "oslo-extra-6",
+        name: "Fedett hátsó terasz",
+        description: "Nagyméretű fedett terasz a hátsó részen",
+        price: 3100000,
+      },
+    ],
   },
 
   montana: {
     name: "Montana",
+    basePrice: 38650000,
     price: "Bruttó 38.650.000-től",
     rating: 4,
     images: [
@@ -172,10 +245,49 @@ stílussal!</p>
         ],
       },
     ],
+    extras: [
+      {
+        id: "montana-extra-1",
+        name: "Prémium konyha",
+        description: "Prémium kivitelű konyha beépített háztartási gépekkel",
+        price: 2500000,
+      },
+      {
+        id: "montana-extra-2",
+        name: "3 méter belmagasság",
+        description: "A standard 2,7 méter helyett 3 méteres belmagasság",
+        price: 1800000,
+      },
+      {
+        id: "montana-extra-3",
+        name: "Cseréptető",
+        description: "Prémium minőségű cseréptető a fém helyett",
+        price: 1450000,
+      },
+      {
+        id: "montana-extra-4",
+        name: "James Hardie falburkolat",
+        description: "Tartós, időjárásálló James Hardie falburkolat",
+        price: 1950000,
+      },
+      {
+        id: "montana-extra-5",
+        name: "Fa padlóburkolat",
+        description: "Prémium tölgyfa padlóburkolat az SPC helyett",
+        price: 1200000,
+      },
+      {
+        id: "montana-extra-6",
+        name: "Napelemes rendszer",
+        description: "4kW teljesítményű napelem rendszer inverterrel",
+        price: 2800000,
+      },
+    ],
   },
 
   dallas: {
     name: "Dallas",
+    basePrice: 47300000,
     price: "Bruttó 47.300.000-től",
     rating: 4,
     images: [
@@ -234,10 +346,55 @@ információt!</p>
         ],
       },
     ],
+    extras: [
+      {
+        id: "dallas-extra-1",
+        name: "Természetes kőburkolat",
+        description: "Prémium természetes kőburkolat a homlokzaton és teraszon",
+        price: 2800000,
+      },
+      {
+        id: "dallas-extra-2",
+        name: "Bontott tégla burkolat",
+        description: "Autentikus bontott tégla burkolat részletek",
+        price: 1950000,
+      },
+      {
+        id: "dallas-extra-3",
+        name: "Teljes padlófűtés",
+        description: "Az egész házban vízalapú padlófűtés rendszer",
+        price: 2400000,
+      },
+      {
+        id: "dallas-extra-4",
+        name: "Hőszivattyú rendszer",
+        description: "Energiahatékony levegő-víz hőszivattyú rendszer",
+        price: 3500000,
+      },
+      {
+        id: "dallas-extra-5",
+        name: "Premium LED világítás",
+        description: "Kibővített smart LED világítási rendszer",
+        price: 1200000,
+      },
+      {
+        id: "dallas-extra-6",
+        name: "Fa padlóburkolat",
+        description: "Prémium tölgyfa padlóburkolat az SPC helyett",
+        price: 1450000,
+      },
+      {
+        id: "dallas-extra-7",
+        name: "Napelemes rendszer",
+        description: "6kW teljesítményű napelem rendszer inverterrel",
+        price: 4200000,
+      },
+    ],
   },
 
   helsinki: {
     name: "Helsinki",
+    basePrice: 59200000,
     price: "Bruttó 59.200.000-től",
     rating: 4,
     images: [
@@ -287,6 +444,59 @@ kellemes lakóérzetet.</p>
           "Premium teraszburkolatok választhatók: thermo kőris és tölgy.",
           "Opcionálisan napelemes rendszerrel is elérhető.",
         ],
+      },
+    ],
+    extras: [
+      {
+        id: "helsinki-extra-1",
+        name: "Prémium konyha csomag",
+        description:
+          "Teljes prémium konyha beépített csúcskategóriás háztartási gépekkel",
+        price: 3800000,
+      },
+      {
+        id: "helsinki-extra-2",
+        name: "Hőszivattyú rendszer",
+        description: "Energiahatékony levegő-víz hőszivattyú fűtési rendszer",
+        price: 3800000,
+      },
+      {
+        id: "helsinki-extra-3",
+        name: "Thermo kőris teraszburkolat",
+        description: "Prémium thermo kőris teraszburkolat",
+        price: 2200000,
+      },
+      {
+        id: "helsinki-extra-4",
+        name: "Thermo tölgy teraszburkolat",
+        description: "Exkluzív thermo tölgy teraszburkolat",
+        price: 2800000,
+      },
+      {
+        id: "helsinki-extra-5",
+        name: "Beépített bútorok",
+        description: "Méretre készített beépített bútorok minden helyiségben",
+        price: 4500000,
+      },
+      {
+        id: "helsinki-extra-6",
+        name: "Fa padlóburkolat",
+        description: "Prémium tölgyfa padlóburkolat az SPC helyett",
+        price: 2200000,
+      },
+      {
+        id: "helsinki-extra-7",
+        name: "Napelemes rendszer",
+        description:
+          "8kW teljesítményű napelem rendszer inverterrel és tárolóval",
+        price: 5800000,
+      },
+      {
+        id: "helsinki-extra-8",
+        name: "Okosotthon rendszer",
+        description:
+          "Teljes körű okosotthon rendszer világítás, fűtés és biztonsági vezérléssel",
+        price: 2950000,
       },
     ],
   },

@@ -1,6 +1,7 @@
 export const products = {
   modena: {
     name: "Modena",
+    basePrice: 13959000,
     price: "Bruttó: 13.959.000-től",
     rating: 5,
     images: [
@@ -47,10 +48,43 @@ export const products = {
         ],
       },
     ],
+    extras: [
+      {
+        id: "modena-extra-1",
+        name: "Kő falburkolat",
+        description: "Külső falra prémium kőburkolat tégla helyett",
+        price: 1450000,
+      },
+      {
+        id: "modena-extra-2",
+        name: "James Hardie burkolat",
+        description: "Időjárásálló James Hardie burkolat a fa helyett",
+        price: 1250000,
+      },
+      {
+        id: "modena-extra-3",
+        name: "Automata garázskapu",
+        description: "Távirányítható automata garázskapu",
+        price: 850000,
+      },
+      {
+        id: "modena-extra-4",
+        name: "Prémium világítás csomag",
+        description: "LED spotlámpák és kültéri fényforrások",
+        price: 380000,
+      },
+      {
+        id: "modena-extra-5",
+        name: "Szigetelés csomag",
+        description: "Fal és tető teljes hőszigetelése",
+        price: 950000,
+      },
+    ],
   },
 
   munich: {
     name: "Munich",
+    basePrice: 9759000,
     price: "Bruttó: 9.759.000-től",
     rating: 4,
     images: [
@@ -97,10 +131,43 @@ export const products = {
         ],
       },
     ],
+    extras: [
+      {
+        id: "munich-extra-1",
+        name: "Kő falburkolat",
+        description: "Külső falra prémium kőburkolat tégla helyett",
+        price: 1200000,
+      },
+      {
+        id: "munich-extra-2",
+        name: "James Hardie burkolat",
+        description: "Időjárásálló James Hardie burkolat a fa helyett",
+        price: 980000,
+      },
+      {
+        id: "munich-extra-3",
+        name: "Kiegészítő tároló",
+        description: "Bővített méretű tároló helyiség",
+        price: 1350000,
+      },
+      {
+        id: "munich-extra-4",
+        name: "LED világítás rendszer",
+        description: "Energiatakarékos LED világítás a teljes területen",
+        price: 320000,
+      },
+      {
+        id: "munich-extra-5",
+        name: "Elektromos csatlakozók",
+        description: "Kiegészítő elektromos csatlakozók, kültéri is",
+        price: 280000,
+      },
+    ],
   },
 
   tihany: {
     name: "Tihany",
+    basePrice: 11259000,
     price: "Bruttó: 11.259.000-től",
     rating: 4,
     images: [
@@ -145,10 +212,43 @@ export const products = {
         ],
       },
     ],
+    extras: [
+      {
+        id: "tihany-extra-1",
+        name: "Járólap burkolat",
+        description: "Prémium kültéri járólap burkolat",
+        price: 850000,
+      },
+      {
+        id: "tihany-extra-2",
+        name: "Szigetelés csomag",
+        description: "Teljes hőszigetelés, szigetelt helységgé alakítás",
+        price: 1150000,
+      },
+      {
+        id: "tihany-extra-3",
+        name: "Fűtési rendszer",
+        description: "Elektromos padlófűtés a szigetelt helyiségben",
+        price: 750000,
+      },
+      {
+        id: "tihany-extra-4",
+        name: "Tetőszigetelés",
+        description: "Extra tetőszigetelés csapadék és hő ellen",
+        price: 680000,
+      },
+      {
+        id: "tihany-extra-5",
+        name: "Prémium nyílászárók",
+        description: "Szigetelt, hangszigetelt nyílászárók",
+        price: 950000,
+      },
+    ],
   },
 
   toronto: {
     name: "Toronto",
+    basePrice: 6755000,
     price: "Bruttó: 6.755.000-től",
     rating: 5,
     images: [
@@ -192,6 +292,38 @@ export const products = {
           "Opcionális LED-világítás",
           "Napelemmel is telepíthető tetőszerkezet",
         ],
+      },
+    ],
+    extras: [
+      {
+        id: "toronto-extra-1",
+        name: "LED világítás rendszer",
+        description: "Teljes LED világítás az autóbeálló területén",
+        price: 290000,
+      },
+      {
+        id: "toronto-extra-2",
+        name: "Napelemes tetőszerkezet",
+        description: "1,5 kW teljesítményű napelem rendszer a tetőn",
+        price: 1750000,
+      },
+      {
+        id: "toronto-extra-3",
+        name: "Nagyobb méretű változat",
+        description: "Kibővített méret: 7m x 7m",
+        price: 1250000,
+      },
+      {
+        id: "toronto-extra-4",
+        name: "Zárható tároló",
+        description: "Oldalsó zárható tárolórész",
+        price: 950000,
+      },
+      {
+        id: "toronto-extra-5",
+        name: "Prémium burkolat",
+        description: "Időjárásálló, prémium külső burkolat",
+        price: 580000,
       },
     ],
   },

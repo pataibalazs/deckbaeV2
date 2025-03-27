@@ -175,51 +175,6 @@ export default function Header() {
             )}
           </div>
 
-          {/* Kiegészítések dropdown */}
-          <div className="relative" ref={accessoriesRef}>
-            <button
-              onClick={() => {
-                setAccessoriesOpen(!accessoriesOpen);
-                setProductsOpen(false);
-              }}
-              className="flex items-center gap-x-1 text-lg font-semibold italic text-black hover:text-slate-500 focus:outline-none"
-            >
-              Kiegészítések
-              <ChevronDownIcon
-                aria-hidden="true"
-                className="h-5 w-5 text-red-600"
-              />
-            </button>
-
-            {accessoriesOpen && (
-              <div className="absolute top-full left-0 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white ring-1 ring-gray-900/5 shadow-lg">
-                <div className="p-4">
-                  {accessories.map((item) => (
-                    <div
-                      key={item.name}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 hover:bg-gray-50"
-                    >
-                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <item.icon className="h-6 w-6 text-red-600 group-hover:text-red-700" />
-                      </div>
-                      <div className="flex-auto">
-                        <Link
-                          href={item.href}
-                          className="block font-semibold text-gray-900"
-                          onClick={() => setAccessoriesOpen(false)}
-                        >
-                          {item.name}
-                          <span className="absolute inset-0" />
-                        </Link>
-                        <p className="mt-1 text-gray-600">{item.description}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
-
           <Link
             href="/team"
             className="text-lg font-semibold italic text-black hover:text-slate-500"
@@ -298,33 +253,6 @@ export default function Header() {
                       </DisclosureButton>
                       <DisclosurePanel className="mt-2 space-y-2">
                         {products.map((item) => (
-                          <Link
-                            key={item.name}
-                            href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                            onClick={() => setMobileMenuOpen(false)}
-                          >
-                            {item.name}
-                          </Link>
-                        ))}
-                      </DisclosurePanel>
-                    </>
-                  )}
-                </Disclosure>
-                <Disclosure as="div" className="-mx-3">
-                  {({ open }) => (
-                    <>
-                      <DisclosureButton className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                        Kiegészítések
-                        <ChevronDownIcon
-                          className={`h-5 w-5 text-red-600 ${
-                            open ? "rotate-180 transform" : ""
-                          }`}
-                          aria-hidden="true"
-                        />
-                      </DisclosureButton>
-                      <DisclosurePanel className="mt-2 space-y-2">
-                        {accessories.map((item) => (
                           <Link
                             key={item.name}
                             href={item.href}

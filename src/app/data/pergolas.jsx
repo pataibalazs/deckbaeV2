@@ -1,6 +1,7 @@
 export const products = {
   "santa-cruz": {
     name: "Malibu",
+    basePrice: 739000,
     price: "Bruttó: 739.000-től",
     rating: 4,
     images: [
@@ -44,10 +45,44 @@ export const products = {
         ],
       },
     ],
+    extras: [
+      {
+        id: "malibu-extra-1",
+        name: "4m x 4m méret",
+        description: "Méretbővítés 3m x 3m-ről 4m x 4m-re",
+        price: 180000,
+      },
+      {
+        id: "malibu-extra-2",
+        name: "Polikarbonát tetőfedés",
+        description: "UV-álló, átlátszó polikarbonát tetőfedés",
+        price: 145000,
+      },
+      {
+        id: "malibu-extra-3",
+        name: "Fém tetőfedés",
+        description: "Időjárásálló fém tetőfedés",
+        price: 190000,
+      },
+      {
+        id: "malibu-extra-4",
+        name: "LED világítási rendszer",
+        description:
+          "Energiatakarékos LED világítás a pergola teljes hosszában",
+        price: 95000,
+      },
+      {
+        id: "malibu-extra-5",
+        name: "Egyedi méret",
+        description: "Egyedi méretezés speciális igények szerint",
+        price: 120000,
+      },
+    ],
   },
 
   "malibu-xl": {
     name: "Malibu XL",
+    basePrice: 1189000,
     price: "Bruttó: 1.189.000-től",
     rating: 5,
     images: [
@@ -88,10 +123,50 @@ export const products = {
         ],
       },
     ],
+    extras: [
+      {
+        id: "malibu-xl-extra-1",
+        name: "8m x 4m méret",
+        description: "Méretbővítés 6m x 3m-ről 8m x 4m-re",
+        price: 290000,
+      },
+      {
+        id: "malibu-xl-extra-2",
+        name: "Polikarbonát tetőfedés",
+        description: "UV-álló, átlátszó polikarbonát tetőfedés",
+        price: 245000,
+      },
+      {
+        id: "malibu-xl-extra-3",
+        name: "Fém tetőfedés",
+        description: "Időjárásálló fém tetőfedés",
+        price: 320000,
+      },
+      {
+        id: "malibu-xl-extra-4",
+        name: "LED világítási rendszer",
+        description:
+          "Energiatakarékos LED világítás a pergola teljes hosszában",
+        price: 150000,
+      },
+      {
+        id: "malibu-xl-extra-5",
+        name: "Beépített hangszóró rendszer",
+        description: "Bluetooth hangszórók a pergola oszlopaiba integrálva",
+        price: 210000,
+      },
+      {
+        id: "malibu-xl-extra-6",
+        name: "Egyedi színezés",
+        description: "Egyedi színű impregnálás a fa szerkezetre",
+        price: 180000,
+      },
+    ],
   },
 
   yukon: {
     name: "Yukon",
+    basePrice: 1459000,
     price: "Bruttó: 1.459.000-től",
     rating: 5,
     images: [
@@ -127,10 +202,55 @@ export const products = {
         ],
       },
     ],
+    extras: [
+      {
+        id: "yukon-extra-1",
+        name: "5m x 5m méret",
+        description: "Méretbővítés 4m x 4m-ről 5m x 5m-re",
+        price: 350000,
+      },
+      {
+        id: "yukon-extra-2",
+        name: "4m x 6m méret",
+        description: "Téglalap alaprajz 4m x 6m méretben",
+        price: 380000,
+      },
+      {
+        id: "yukon-extra-3",
+        name: "Cseréptető",
+        description: "Prémium minőségű cseréptető beépítése",
+        price: 480000,
+      },
+      {
+        id: "yukon-extra-4",
+        name: "Természetes kő oszlopok",
+        description: "Természetes kőburkolatú oszlopok",
+        price: 420000,
+      },
+      {
+        id: "yukon-extra-5",
+        name: "Tégla oszlopok",
+        description: "Döntött tégla burkolatú oszlopok",
+        price: 290000,
+      },
+      {
+        id: "yukon-extra-6",
+        name: "Beton alap kőburkolattal",
+        description: "Professzionális beton alap természetes kő burkolattal",
+        price: 580000,
+      },
+      {
+        id: "yukon-extra-7",
+        name: "Csempe padlóburkolat",
+        description: "Fagyálló csempe padlóburkolat",
+        price: 320000,
+      },
+    ],
   },
 
   "saint-tropez": {
     name: "Saint-Tropez",
+    basePrice: 859000,
     price: "Bruttó: 859.000-től",
     rating: 4,
     images: [
@@ -170,6 +290,44 @@ export const products = {
           "Alapvető sötétbarna szín",
           "10 és 25 év közötti bomlási garancia",
         ],
+      },
+    ],
+    extras: [
+      {
+        id: "saint-tropez-extra-1",
+        name: "8m x 4m méret",
+        description: "Méretbővítés 4m x 4m-ről 8m x 4m-re",
+        price: 380000,
+      },
+      {
+        id: "saint-tropez-extra-2",
+        name: "12m x 4m méret",
+        description: "Méretbővítés 4m x 4m-ről 12m x 4m-re",
+        price: 750000,
+      },
+      {
+        id: "saint-tropez-extra-3",
+        name: "Polikarbonát tetőfedés",
+        description: "UV-álló, átlátszó polikarbonát tetőfedés",
+        price: 190000,
+      },
+      {
+        id: "saint-tropez-extra-4",
+        name: "LED világítási rendszer",
+        description: "Elegáns LED világítás a pergola szerkezetébe integrálva",
+        price: 160000,
+      },
+      {
+        id: "saint-tropez-extra-5",
+        name: "Távvezérelhető árnyékolók",
+        description: "Motoros, távvezérelhető árnyékoló rendszer",
+        price: 280000,
+      },
+      {
+        id: "saint-tropez-extra-6",
+        name: "Egyedi színezés",
+        description: "Egyedi színű impregnálás a fa szerkezetre",
+        price: 120000,
       },
     ],
   },
