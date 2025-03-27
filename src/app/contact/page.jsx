@@ -223,7 +223,7 @@ const ContactPage = () => {
                             href="mailto:deckbaesale@gmail.com"
                             className="text-md font-medium text-red-600 hover:underline"
                           >
-                            deckbaesale@gmail.com
+                            deckbaesales@gmail.com
                           </a>
                         </div>
                       </div>

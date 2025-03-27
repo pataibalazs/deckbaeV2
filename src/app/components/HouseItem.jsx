@@ -183,8 +183,8 @@ export default function Item({ product }) {
 
           {/* Full width Final Price & CTA */}
           <div className="mt-10 border-b pb-6 pt-6">
-            <div className="flex items-center justify-between">
-              <div className="flex-shrink-0">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between space-y-6 md:space-y-0">
+              <div>
                 <h3 className="text-lg font-medium text-gray-900">Összesen</h3>
                 <p className="text-sm text-gray-500 mt-1">
                   A végső ár tartalmazza az alapárat és a kiválasztott
@@ -192,14 +192,14 @@ export default function Item({ product }) {
                 </p>
               </div>
 
-              <p className="text-2xl font-bold text-gray-900 mx-4 flex-shrink-0">
-                {formatPrice(totalPrice)} Ft
-              </p>
+              <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8">
+                <p className="text-2xl font-bold text-gray-900">
+                  {formatPrice(totalPrice)} Ft
+                </p>
 
-              <div className="flex-shrink-0">
                 <Link
                   href="/contact"
-                  className="inline-flex justify-center rounded-md bg-green-600 px-6 py-3 text-white text-lg font-medium hover:bg-green-700 transition-colors"
+                  className="w-full sm:w-auto inline-flex justify-center rounded-md bg-green-600 px-6 py-3 text-white text-lg font-medium hover:bg-green-700 transition-colors"
                 >
                   Felkeresem a DECKBAE csapatát
                 </Link>
