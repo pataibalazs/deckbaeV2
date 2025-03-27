@@ -3,7 +3,7 @@ const people = [
     name: "Molnár Patrik",
     role: "Kivetelező",
     imageUrl: "/pictures/david.jpg",
-    bio: "Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.",
+    bio: "Molnár Patrik vagyok, több mint 20 éve dolgozom asztalosként. Nemzetközi tapasztalataimat Kanadában, Ausztráliában és az USA-ban szereztem, különösen pergolák, teraszok és prémium kültéri megoldások kivitelezésében. Jelenleg a Deckbae kültéri bútorait és pergoláit tervezem és gyártom, ahol a modern design és a precíz kézművesség találkozik.",
     xUrl: "#",
     linkedinUrl: "#",
   },
@@ -23,15 +23,15 @@ export default function Team() {
       <main className="flex flex-col items-center p-6 bg-white shadow-md rounded-lg w-11/12 mt-10">
         <div className="bg-white">
           <div className="mx-auto max-w-7xl">
-            <div className="mx-auto max-w-5xl lg:text-center">
+            <div className="mx-auto max-w-5xl text-center">
               <p className="mt-2 text-md font-bold tracking-tight text-red-600">
                 Csapat
               </p>
-              <p className="mt-2 mb-4 text-xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl sm:text-balance">
+              <p className="mt-2 mb-1 sm:mb-4 font-semibold tracking-tight text-pretty text-gray-900 text-4xl text-balance">
                 Ismerd meg a Deckbae csapatát!
               </p>
             </div>
-            <div className="bg-white py-10">
+            <div className="bg-white py-2 lg:py-10">
               <div className="mx-auto grid max-w-8xl grid-cols-1 gap-20 px-2 lg:px-8 xl:grid-cols-3">
                 <div className="mx-auto max-w-3xl lg:mx-0">
                   <p className="mt-6 text-lg text-gray-600">

@@ -184,11 +184,12 @@ export default function Item({ product }) {
           {/* Full width Final Price & CTA */}
           <div className="mt-10 border-b pb-6 pt-6">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between space-y-6 md:space-y-0">
-              <div>
+              <div className="max-w-lg">
                 <h3 className="text-lg font-medium text-gray-900">Összesen</h3>
-                <p className="text-sm text-gray-500 mt-1">
-                  A végső ár tartalmazza az alapárat és a kiválasztott
-                  kiegészítőket.
+                <p className="text-sm text-gray-500 mt-1 line-clamp-3 sm:line-clamp-2">
+                  A feltüntetett ár tartalmazza az alapárat és a kiválasztott
+                  kiegészítőket. Az ár egy becslés, és nem minősül végleges
+                  ajánlatnak.
                 </p>
               </div>
 

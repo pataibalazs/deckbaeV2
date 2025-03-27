@@ -4,9 +4,8 @@ const navigation = {
   main: [
     { name: "Főoldal", href: "/" },
     { name: "Termékek", href: "/" },
-    { name: "Kiegészítések", href: "/" },
     { name: "Csapat", href: "/teams" },
-    { name: "Rólunk", href: "/contact" },
+    { name: "Kontakt", href: "/contact" },
   ],
 };
 
@@ -16,7 +15,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
         <nav
           aria-label="Footer"
-          className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+          className="-mb-6 columns-2 flex justify-center space-x-12"
         >
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">

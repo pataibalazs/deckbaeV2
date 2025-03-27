@@ -1,7 +1,7 @@
 // data/products.js
 export const products = {
   "santa-cruz": {
-    name: "Santa Cruz",
+    name: "Santa Cruz - 56m²",
     basePrice: 29380000,
     price: "Bruttó: 29.380.000-től",
     rating: 4,
@@ -88,7 +88,7 @@ vagy befektetésnek. Lépj kapcsolatba velünk további információért!</p>
   },
 
   oslo: {
-    name: "Oslo",
+    name: "Oslo - 91m²",
     basePrice: 39900000,
     price: "Bruttó: 39.900.000-től",
     rating: 4,
@@ -188,7 +188,7 @@ nyaralónak!</p>
   },
 
   montana: {
-    name: "Montana",
+    name: "Montana - 80m²",
     basePrice: 38650000,
     price: "Bruttó 38.650.000-től",
     rating: 4,
@@ -286,7 +286,7 @@ stílussal!</p>
   },
 
   dallas: {
-    name: "Dallas",
+    name: "Dallas - 98m²",
     basePrice: 47300000,
     price: "Bruttó 47.300.000-től",
     rating: 4,
@@ -393,7 +393,7 @@ információt!</p>
   },
 
   helsinki: {
-    name: "Helsinki",
+    name: "Helsinki - 128m²",
     basePrice: 59200000,
     price: "Bruttó 59.200.000-től",
     rating: 4,
