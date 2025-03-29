@@ -49,8 +49,8 @@ const features = [
 export default function Features() {
   return (
     <div className="bg-white py-12 sm:pt-6 sm:pb-32 px-6">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl sm:text-center">
+      <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-base/7 font-bold text-red-600">
             Minden, amire szükséged lehet
           </h2>
@@ -64,8 +64,8 @@ export default function Features() {
           </p>
         </div>
       </div>
-      <div className="relative overflow-hidden pt-16">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="relative overflow-hidden pt-5 sm:pt-10">
+        <div className="sm:mx-auto sm:max-w-7xl sm:px-6 lg:px-8">
           <img
             alt="App screenshot"
             src="/pictures/featureHouse.png"
@@ -78,7 +78,7 @@ export default function Features() {
           </div>
         </div>
       </div>
-      <div className="mx-auto mt-10 max-w-7xl px-6 sm:mt-10 md:mt-14 lg:px-8">
+      <div className="mx-auto mt-10 max-w-7xl sm:px-6 sm:mt-10 md:mt-14 lg:px-8">
         <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
           {features.map((feature) => (
             <div key={feature.name} className="relative pl-9">

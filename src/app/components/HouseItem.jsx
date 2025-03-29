@@ -51,21 +51,24 @@ export default function Item({ product }) {
 
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 sm:py-2 lg:px-8">
-        <div className="lg:flex lg:flex-col">
+      <div className="mx-auto max-w-7xl sm:px-6 sm:py-2 xl:px-8">
+        <div className="xl:flex xl:flex-col">
           {/* Top section with image and basic info */}
-          <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8">
+          <div className="xl:grid xl:grid-cols-2 xl:items-start xl:gap-x-8">
             {/* Image gallery */}
             <TabGroup className="flex flex-col-reverse">
               {/* Thumbnails */}
-              <div className="mx-auto mt-6 hidden w-full max-w-2xl sm:block lg:max-w-none">
-                <TabList className="grid grid-cols-4 gap-4">
+              <div className="mt-6 w-full sm:block">
+                <TabList className="grid grid-cols-4 gap-4 sm:justify-items-start">
                   {product.images.map((image) => (
-                    <Tab key={image.id} className="relative cursor-pointer">
+                    <Tab
+                      key={image.id}
+                      className="relative cursor-pointer w-full sm:w-auto"
+                    >
                       <img
                         src={image.src}
                         alt={image.alt}
-                        className="rounded-md object-cover"
+                        className="rounded-md object-cover w-full h-16 sm:h-20"
                       />
                     </Tab>
                   ))}
@@ -79,7 +82,7 @@ export default function Item({ product }) {
                     <img
                       src={image.src}
                       alt={image.alt}
-                      className="aspect-video w-full object-cover sm:rounded-lg"
+                      className="aspect-video w-full object-cover rounded-sm"
                     />
                   </TabPanel>
                 ))}
@@ -87,7 +90,7 @@ export default function Item({ product }) {
             </TabGroup>
 
             {/* Product Info - Basic */}
-            <div className="mt-10 px-4 sm:mt-16 sm:px-0 lg:mt-0">
+            <div className="mt-10 sm:px-4 sm:mt-16 sm:px-0 xl:mt-0">
               <h1 className="text-3xl font-bold tracking-tight text-gray-900">
                 {product.name}
               </h1>
@@ -100,7 +103,7 @@ export default function Item({ product }) {
               </p>
 
               <div
-                className="mt-6 space-y-6 text-base text-gray-700"
+                className="mt-6 space-y-6 text-base text-gray-700 sm:text-left text-justify"
                 dangerouslySetInnerHTML={{ __html: product.description }}
               />
 
@@ -148,7 +151,7 @@ export default function Item({ product }) {
               <h3 className="text-2xl font-medium text-gray-900 mb-6">
                 Kiegészítők
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
                 {extras.map((extra) => (
                   <button
                     key={extra.id}
@@ -181,31 +184,34 @@ export default function Item({ product }) {
             </div>
           )}
 
-          {/* Full width Final Price & CTA */}
           <div className="mt-10 border-b pb-6 pt-6">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between space-y-6 md:space-y-0">
-              <div className="max-w-lg">
-                <h3 className="text-lg font-medium text-gray-900">Összesen</h3>
-                <p className="text-sm text-gray-500 mt-1 line-clamp-3 sm:line-clamp-2">
-                  A feltüntetett ár tartalmazza az alapárat és a kiválasztott
-                  kiegészítőket. Az ár egy becslés, és nem minősül végleges
-                  ajánlatnak.
+            <div className="flex flex-col lg:flex-row justify-between items-center sm:gap-0">
+              {/* Left side: Összesen and price */}
+              <div className="flex items-center justify-center sm:justify-start mb-3 lg:mb-0">
+                <h3 className="text-xl font-medium text-gray-900 mr-2">
+                  Összesen:
+                </h3>
+                <p className="text-xl xs:text-2xl font-bold text-gray-900">
+                  {formatPrice(totalPrice)} Ft
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8">
-                <p className="text-2xl font-bold text-gray-900">
-                  {formatPrice(totalPrice)} Ft
-                </p>
-
+              {/* Right side: Button */}
+              <div>
                 <Link
                   href="/contact"
-                  className="w-full sm:w-auto inline-flex justify-center rounded-md bg-green-600 px-6 py-3 text-white text-lg font-medium hover:bg-green-700 transition-colors"
+                  className="text-center inline-flex justify-center rounded-md bg-green-600 px-5 xs:px-8 xs:py-5 py-2 text-white text-lg xs:text-xl font-medium hover:bg-green-700 transition-colors shadow-sm"
                 >
                   Felkeresem a DECKBAE csapatát
                 </Link>
               </div>
             </div>
+
+            {/* Optional: Disclaimer text */}
+            <p className="text-sm text-gray-500 mt-3 text-center lg:text-left lg:max-w-72 xl:max-w-2xl">
+              A feltüntetett ár tartalmazza az alapárat és a kiválasztott
+              kiegészítőket.
+            </p>
           </div>
         </div>
       </div>

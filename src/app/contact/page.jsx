@@ -3,10 +3,10 @@ import React from "react";
 const ContactPage = () => {
   return (
     <div className="bg-gray-100 flex flex-col items-center">
-      <main className="flex flex-col items-center p-6 bg-white shadow-md rounded-lg w-11/12 mt-10 mb-10">
+      <main className="flex flex-col items-center p-6 bg-white shadow-md rounded-lg mt-10 mb-10 max-w-80 xs:max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl">
         <div className="bg-white">
           <div className="mx-auto max-w-7xl mb-10">
-            <div className="mx-auto max-w-5xl lg:text-center">
+            <div className="mx-auto max-w-5xl text-center">
               <p className="mt-2 text-md font-bold tracking-tight text-red-600">
                 Kontakt
               </p>

@@ -7,15 +7,15 @@ export default function Homepage() {
   return (
     <div>
       <div className="bg-gray-100 flex justify-center">
-        <main className="flex flex-col items-center bg-white shadow-md rounded-lg w-11/12 mt-10">
+        <main className="flex flex-col items-center bg-white shadow-md rounded-xl mt-10 max-w-80 xs:max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl">
           <HeroWithImage />
           <Features />
 
-          <div className="mx-auto max-w-2xl sm:text-center mb-10">
+          <div className="mx-auto max-w-2xl text-center mb-10">
             <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl sm:text-balance">
               Gyakori kérdések
             </p>
-            <p className="mt-6 text-lg/8 text-gray-600">
+            <p className="mt-6 text-lg/8 text-gray-600 max-w-72 sm:max-w-md lg:max-w-3xl">
               Van olyan kérdésed, amely nem szerepel a listában? Írj nekünk a{" "}
               <Link
                 href="/contact"
@@ -29,17 +29,17 @@ export default function Homepage() {
           <FAQ />
 
           <div className="mx-auto w-11/12 lg:text-center mt-20 mb-10">
-            <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl sm:text-balance">
+            <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl text-center">
               Rólunk
             </p>
-            <p className="mt-6 mb-4 text-lg/8 text-gray-600 max-w-3xl mx-auto">
+            <p className="mt-6 mb-4 text-lg/8 text-gray-600 max-w-3xl mx-auto text-center md:text-left">
               Ismerd meg a Deckbae mögött álló filozófiánkat. Elkötelezettek
               vagyunk a minőségi kivitelezés és az ügyfeleink álmainak
               megvalósítása mellett.
             </p>
-            <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-              <div className="md:w-1/2">
-                <p className="mt-6 text-lg leading-8 text-gray-900 text-left">
+            <div className="flex flex-col xl:flex-row justify-between items-center gap-8">
+              <div className="xl:w-1/2">
+                <p className="mt-6 text-lg leading-8 text-gray-900 text-justify xl:text-left">
                   A Deckbae könnyűszerkezetes házak, pergolák, pavilonok és
                   melléképületek kivitelezésével foglalkozik. Termékeink modern,
                   energiatakarékos és esztétikailag kifinomult megoldásokat
@@ -52,7 +52,7 @@ export default function Homepage() {
                   nyaralójukban.
                 </p>
               </div>
-              <div className="md:w-1/2 mt-8 md:mt-0">
+              <div className="xl:w-1/2 mt-8 md:mt-0">
                 <img
                   className="w-full rounded-lg shadow-xl hover:scale-[1.02] transition-transform duration-300"
                   src="/pictures/houses/oslo/haz.png"

@@ -20,7 +20,7 @@ const people = [
 export default function Team() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
-      <main className="flex flex-col items-center p-6 bg-white shadow-md rounded-lg w-11/12 mt-10">
+      <main className="flex flex-col items-center p-6 bg-white shadow-md rounded-lg mt-10 max-w-80 xs:max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl">
         <div className="bg-white">
           <div className="mx-auto max-w-7xl">
             <div className="mx-auto max-w-5xl text-center">
@@ -32,9 +32,9 @@ export default function Team() {
               </p>
             </div>
             <div className="bg-white py-2 lg:py-10">
-              <div className="mx-auto grid max-w-8xl grid-cols-1 gap-20 px-2 lg:px-8 xl:grid-cols-3">
+              <div className="mx-auto grid max-w-8xl grid-cols-1 gap-20 sm:px-2 lg:px-8 xl:grid-cols-3">
                 <div className="mx-auto max-w-3xl lg:mx-0">
-                  <p className="mt-6 text-lg text-gray-600">
+                  <p className="mt-6 text-lg text-gray-600 text-left sm:text-justify xl:text-left">
                     Csapatunk dinamikus, szenvedélyes szakemberekből áll, akik
                     elkötelezettek a munkájuk iránt és arra törekednek, hogy a
                     legjobb eredményeket nyújtsák ügyfeleinknek. Többéves
