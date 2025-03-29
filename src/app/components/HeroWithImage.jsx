@@ -18,7 +18,7 @@ export default function HeroWithImage() {
             <div className="mt-10 flex items-center gap-x-6">
               <Link
                 href="/houses"
-                className="rounded-md bg-red-600 px-4 py-2 xs:px-6 xs:py-3 text-sm sm:text-lg font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 transition-colors whitespace-nowrap"
+                className="rounded-md bg-red-600 px-4 py-2 xs:px-6 xs:py-3 text-sm sm:text-lg font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 transition-colors whitespace-nowrap"
               >
                 Kezdjük el!
               </Link>

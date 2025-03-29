@@ -7,6 +7,12 @@ const faqs = [
       "A könnyűszerkezetes házak alapját acél vagy fa vázszerkezet adja, amelyet különböző szigetelő- és burkolóanyagokkal egészítünk ki. Ezek a modern építőanyagok kiváló hőszigetelést és tartósságot biztosítanak.",
   },
   {
+    question:
+      "Igényelhető a CSOK Plusz támogatás könnyűszerkezetes ház építéséhez?",
+    answer:
+      "Igen, a könnyűszerkezetes házakra is igényelhető a CSOK Plusz támogatás.",
+  },
+  {
     question: "Mennyi idő alatt épül fel egy könnyűszerkezetes ház?",
     answer:
       "Az építkezés időtartama a ház méretétől és a választott kivitelezési opciótól függ. Általában 3-6 hónap alatt kulcsrakész állapotba tudjuk hozni az épületet, ami jelentősen rövidebb a hagyományos építkezéseknél.",
