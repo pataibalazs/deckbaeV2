@@ -1,6 +1,11 @@
+"use client";
+
 import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 
 const ContactPage = () => {
+  const [state, handleSubmit] = useForm("xrbpaake");
+
   return (
     <div className="bg-gray-100 flex flex-col items-center">
       <main className="flex flex-col items-center p-6 bg-white shadow-md rounded-lg mt-10 mb-10 max-w-80 xs:max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl">
@@ -13,87 +18,130 @@ const ContactPage = () => {
               <p className="mt-2 mb-4 text-4xl font-semibold tracking-tight text-pretty text-gray-900">
                 Kérdés, vagy probléma esetén írj nekünk.
               </p>
-              <div className="bg-white text-left">
-                <form
-                  action="#"
-                  method="POST"
-                  className="mx-auto mt-14 mb-14 max-w-xl"
-                >
-                  <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-                    <div>
-                      <label
-                        htmlFor="first-name"
-                        className="block text-sm font-semibold leading-6 text-gray-900"
-                      >
-                        Email cím
-                      </label>
-                      <div className="mt-2.5">
-                        <input
-                          id="first-name"
-                          name="first-name"
-                          type="text"
-                          autoComplete="given-name"
-                          className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
-                        />
-                      </div>
-                    </div>
-                    <div>
-                      <label
-                        htmlFor="location"
-                        className="block text-sm font-semibold leading-6 text-gray-900"
-                      >
-                        Melyik termék érdekel?
-                      </label>
-                      <select
-                        id="location"
-                        name="location"
-                        defaultValue="Canada"
-                        className="mt-2 block bg-white w-full rounded-md border-0 py-3 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-red-600 sm:text-sm sm:leading-6"
-                      >
-                        <option>Santa Cruz</option>
-                        <option>Oslo</option>
-                        <option>Montana</option>
-                        <option>Dallas</option>
-                        <option>Helsinki</option>
-                        <option>Malibu</option>
-                        <option>MalibuXL</option>
-                        <option>Yukon</option>
-                        <option>Saint-Tropez</option>
-                        <option>Modena</option>
-                        <option>Munich</option>
-                        <option>Tihany</option>
-                        <option>Toronto</option>
-                        <option>Nincs specifikus</option>
-                      </select>
-                    </div>
 
-                    <div className="sm:col-span-2">
-                      <label
-                        htmlFor="message"
-                        className="block text-sm font-semibold leading-6 text-gray-900"
-                      >
-                        Üzenet
-                      </label>
-                      <div className="mt-2.5">
-                        <textarea
-                          id="message"
-                          name="message"
-                          rows={4}
-                          className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
-                          defaultValue={""}
-                        />
+              <div className="bg-white text-left">
+                {state.succeeded ? (
+                  <div className="mx-auto mt-14 mb-14 max-w-xl text-center p-8 border border-green-200 bg-green-50 rounded-lg shadow">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-16 w-16 mx-auto text-green-600 mb-4"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <h3 className="text-2xl font-bold text-green-800 mb-2">
+                      Köszönjük!
+                    </h3>
+                    <p className="text-lg text-green-700">
+                      Az üzenetét sikeresen elküldtük. Hamarosan felvesszük
+                      Önnel a kapcsolatot.
+                    </p>
+                  </div>
+                ) : (
+                  <form
+                    onSubmit={handleSubmit}
+                    className="mx-auto mt-14 mb-14 max-w-xl"
+                  >
+                    <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                      <div>
+                        <label
+                          htmlFor="email"
+                          className="block text-sm font-semibold leading-6 text-gray-900"
+                        >
+                          Email cím
+                        </label>
+                        <div className="mt-2.5">
+                          <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            autoComplete="email"
+                            required
+                            className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
+                          />
+                          <ValidationError
+                            prefix="Email"
+                            field="email"
+                            errors={state.errors}
+                            className="text-red-600 text-sm mt-1"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <label
+                          htmlFor="product"
+                          className="block text-sm font-semibold leading-6 text-gray-900"
+                        >
+                          Melyik termék érdekel?
+                        </label>
+                        <select
+                          id="product"
+                          name="product"
+                          className="mt-2 block bg-white w-full rounded-md border-0 py-3 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-red-600 sm:text-sm sm:leading-6"
+                        >
+                          <option>Santa Cruz</option>
+                          <option>Oslo</option>
+                          <option>Montana</option>
+                          <option>Dallas</option>
+                          <option>Helsinki</option>
+                          <option>Malibu</option>
+                          <option>MalibuXL</option>
+                          <option>Yukon</option>
+                          <option>Saint-Tropez</option>
+                          <option>Modena</option>
+                          <option>Munich</option>
+                          <option>Tihany</option>
+                          <option>Toronto</option>
+                          <option>Nincs specifikus</option>
+                        </select>
+                      </div>
+
+                      <div className="sm:col-span-2">
+                        <label
+                          htmlFor="message"
+                          className="block text-sm font-semibold leading-6 text-gray-900"
+                        >
+                          Üzenet
+                        </label>
+                        <div className="mt-2.5">
+                          <textarea
+                            id="message"
+                            name="message"
+                            rows={4}
+                            required
+                            className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
+                          />
+                          <ValidationError
+                            prefix="Message"
+                            field="message"
+                            errors={state.errors}
+                            className="text-red-600 text-sm mt-1"
+                          />
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="mt-10">
-                    <button
-                      type="submit"
-                      className="block w-full rounded-md bg-red-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-all duration-200"
-                    >
-                      Küldés
-                    </button>
-                  </div>
-                </form>
+                    <div className="mt-10">
+                      <button
+                        type="submit"
+                        disabled={state.submitting}
+                        className={`block w-full rounded-md bg-red-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-all duration-200 ${
+                          state.submitting
+                            ? "opacity-70 cursor-not-allowed"
+                            : ""
+                        }`}
+                      >
+                        {state.submitting ? "Küldés folyamatban..." : "Küldés"}
+                      </button>
+                    </div>
+                  </form>
+                )}
               </div>
 
               <div className="grid gap-8 mt-10 text-left">
@@ -220,7 +268,7 @@ const ContactPage = () => {
                         <div>
                           <p className="text-sm text-gray-500">Email</p>
                           <a
-                            href="mailto:deckbaesale@gmail.com"
+                            href="mailto:deckbaesales@gmail.com"
                             className="text-md font-medium text-red-600 hover:underline"
                           >
                             deckbaesales@gmail.com
