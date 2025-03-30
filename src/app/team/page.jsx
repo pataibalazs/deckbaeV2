@@ -11,7 +11,7 @@ const people = [
     name: "Rőczei Gellért Dávid",
     role: "Kivetelező",
     imageUrl: "/pictures/david.jpg",
-    bio: "Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.",
+    bio: "Precíz, pontos, gyors és rugalmas épületgépésztechnikus vagyok, 7 éves tapasztalattal a szakmában. Ács végzettséggel is rendelkezem, és széleskörű tapasztalattal bírok légkezelők, központi fűtés, klímák, gázkazánok és vegyestüzelésű kazánok kivitelezésében és tervezésében, mind lakossági, mind ipari környezetben. Alapszerelések mestereként mottóm: „Úgy állj hozzá a munkához, hogy más is odaférjen.”",
     xUrl: "#",
     linkedinUrl: "#",
   },
