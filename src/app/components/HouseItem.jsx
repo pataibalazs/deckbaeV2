@@ -79,11 +79,16 @@ export default function Item({ product }) {
               <TabPanels>
                 {product.images.map((image) => (
                   <TabPanel key={image.id}>
-                    <img
-                      src={image.src}
-                      alt={image.alt}
-                      className="aspect-video w-full object-cover rounded-sm"
-                    />
+                    <div
+                      className="h-[300px] flex justify-center items-center rounded-sm overflow-hidden"
+                      style={{ minHeight: "300px" }}
+                    >
+                      <img
+                        src={image.src}
+                        alt={image.alt}
+                        className="max-w-full max-h-[300px] object-contain rounded-sm"
+                      />
+                    </div>
                   </TabPanel>
                 ))}
               </TabPanels>
@@ -148,9 +153,13 @@ export default function Item({ product }) {
           {/* Full width Extras section */}
           {extras.length > 0 && (
             <div className="mt-12 pt-6">
-              <h3 className="text-2xl font-medium text-gray-900 mb-6">
+              <h3 className="text-2xl font-medium text-gray-900 mb-2">
                 Kiegészítők
               </h3>
+              <h3 className="text-md text-gray-900 mb-6">
+                Részletes csomagismertetés a lap alján található.
+              </h3>
+
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
                 {extras.map((extra) => (
                   <button
