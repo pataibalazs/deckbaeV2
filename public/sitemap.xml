@@ -43,12 +43,4 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-
-  <!-- Hibaoldal (nem indexeljük, de ha akarod, itt maradhat) -->
-  <url>
-    <loc>https://deckbae.hu/404</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.1</priority>
-  </url>
 </urlset>
