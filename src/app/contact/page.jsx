@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
@@ -8,15 +9,49 @@ const ContactPage = () => {
 
   return (
     <div className="bg-gray-100 flex flex-col items-center">
+      <Head>
+        <title>Kapcsolat | Deckbae – Gyors házépítés ajánlatkérés</title>
+        <meta
+          name="description"
+          content="Lépj kapcsolatba velünk modern és gyors könnyűszerkezetes házak építéséhez! Írj üzenetet és kérj személyre szabott ajánlatot."
+        />
+        <meta
+          name="keywords"
+          content="kapcsolat deckbae, házépítés kapcsolat, ajánlatkérés könnyűszerkezetes ház, kapcsolatfelvétel modern házhoz"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Kapcsolat | Deckbae" />
+        <meta
+          property="og:description"
+          content="Vedd fel velünk a kapcsolatot! Könnyűszerkezetes házak, garázsok és pergolák kivitelezése. Egyedi ajánlatkérés néhány kattintással."
+        />
+        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:url" content="https://deckbae.hu/contact" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Kapcsolat | Deckbae" />
+        <meta
+          name="twitter:description"
+          content="Lépj kapcsolatba a Deckbae csapatával gyors házépítési megoldásokért!"
+        />
+        <meta name="twitter:image" content="/og-image.jpg" />
+        <link rel="canonical" href="https://deckbae.hu/contact" />
+      </Head>
+
       <main className="flex flex-col items-center p-6 bg-white shadow-md rounded-lg mt-10 mb-10 max-w-80 xs:max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl">
         <div className="bg-white">
           <div className="mx-auto max-w-7xl mb-10">
             <div className="mx-auto max-w-5xl text-center">
               <p className="mt-2 text-md font-bold tracking-tight text-red-600">
-                Kontakt
+                Kapcsolatfelvétel
               </p>
-              <p className="mt-2 mb-4 text-4xl font-semibold tracking-tight text-pretty text-gray-900">
-                Kérdés, vagy probléma esetén írj nekünk.
+              <h1 className="mt-2 mb-4 text-4xl font-semibold tracking-tight text-pretty text-gray-900">
+                Kérdésed van a gyors házépítéssel, típusházainkkal vagy
+                pergoláinkkal kapcsolatban?
+              </h1>
+              <p className="text-gray-600 text-lg">
+                Írj nekünk üzenetet, és hamarosan jelentkezünk egy személyre
+                szabott válasszal vagy ajánlattal.
               </p>
 
               <div className="bg-white text-left">
@@ -40,8 +75,8 @@ const ContactPage = () => {
                       Köszönjük!
                     </h3>
                     <p className="text-lg text-green-700">
-                      Az üzenetét sikeresen elküldtük. Hamarosan felvesszük
-                      Önnel a kapcsolatot.
+                      Az üzeneted sikeresen elküldtük. Hamarosan felvesszük
+                      veled a kapcsolatot.
                     </p>
                   </div>
                 ) : (
@@ -144,6 +179,7 @@ const ContactPage = () => {
                 )}
               </div>
 
+              {/* Céges információ blokk */}
               <div className="grid gap-8 mt-10 text-left">
                 <div className="bg-white border border-gray-200 p-8 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
                   <div className="flex items-center mb-6">
@@ -165,7 +201,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="text-2xl font-bold text-gray-900">
-                        Deckbae Global kft.
+                        Deckbae Global Kft.
                       </h3>
                       <p className="text-md font-medium text-red-600">Europe</p>
                     </div>
@@ -189,7 +225,7 @@ const ContactPage = () => {
                           />
                         </svg>
                         <div>
-                          <p className="text-sm text-gray-500">Telephone</p>
+                          <p className="text-sm text-gray-500">Telefon</p>
                           <p className="text-md font-medium text-gray-800">
                             +36 30 612 7858
                           </p>
@@ -243,9 +279,9 @@ const ContactPage = () => {
                           />
                         </svg>
                         <div>
-                          <p className="text-sm text-gray-500">Address</p>
+                          <p className="text-sm text-gray-500">Cím</p>
                           <p className="text-md font-medium text-gray-800">
-                            2073 Tök, Fő utca 1, Hungary
+                            2073 Tök, Fő utca 1, Magyarország
                           </p>
                         </div>
                       </div>
@@ -279,6 +315,7 @@ const ContactPage = () => {
                   </div>
                 </div>
               </div>
+              {/* Vége céginfóknak */}
             </div>
           </div>
         </div>

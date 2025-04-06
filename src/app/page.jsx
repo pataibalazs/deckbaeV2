@@ -2,10 +2,18 @@ import Link from "next/link";
 import FAQ from "./components/FAQ";
 import HeroWithImage from "./components/HeroWithImage";
 import Features from "./components/Features";
+import Head from "next/head";
 
 export default function Homepage() {
   return (
     <div>
+      <Head>
+        <title>Deckbae - Gyors könnyűszerkezetes házépítés</title>
+        <meta
+          name="description"
+          content="Prémium minőségű könnyűszerkezetes házak modern és fenntartható kivitelben. Gyorsan és költséghatékonyan!"
+        />
+      </Head>
       <div className="bg-gray-100 flex justify-center">
         <main className="flex flex-col items-center bg-white shadow-md rounded-xl mt-10 max-w-80 xs:max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl">
           <HeroWithImage />
@@ -56,7 +64,7 @@ export default function Homepage() {
                 <img
                   className="w-full rounded-lg shadow-xl hover:scale-[1.02] transition-transform duration-300"
                   src="/pictures/houses/oslo/haz.png"
-                  alt="Deckbae ház"
+                  alt="Könnyűszerkezetes modern ház - Deckbae"
                 />
               </div>
             </div>
