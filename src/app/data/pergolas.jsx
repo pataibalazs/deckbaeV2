@@ -26,9 +26,7 @@ export const products = {
       },
       { name: "White", bgColor: "bg-white", selectedColor: "ring-gray-400" },
     ],
-    description: `
-        <p>A Malibu pergola elegáns és funkcionális kiegészítője kertjének vagy teraszának, amely azonnali stílust és praktikus árnyékolást biztosít. Prémium minőségű borovi fenyőből készült, amely egyesíti a természetes fa szépségét a tartóssággal. Letisztult, modern formája tökéletesen illeszkedik bármilyen kültéri környezethez, legyen szó városi teraszról vagy vidéki kertről.</p>
-      `,
+    description: `<p>A Malibu pergola elegáns és funkcionális kiegészítője kertjének vagy teraszának, amely azonnali stílust és praktikus árnyékolást biztosít. Prémium minőségű borovi fenyőből készült, amely egyesíti a természetes fa szépségét a tartóssággal. Letisztult, modern formája tökéletesen illeszkedik bármilyen kültéri környezethez, legyen szó városi teraszról vagy vidéki kertről.</p>`,
     details: [
       {
         name: "Tulajdonságok",
@@ -48,34 +46,39 @@ export const products = {
     extras: [
       {
         id: "malibu-extra-1",
-        name: "4m x 4m méret",
-        description: "Méretbővítés 3m x 3m-ről 4m x 4m-re",
-        price: 180000,
+        name: "Opcionális LED világítási rendszer",
+        description: "Opcionális LED világítás a teljes területen",
+        price: 240000,
       },
       {
         id: "malibu-extra-2",
-        name: "Polikarbonát tetőfedés",
-        description: "UV-álló, átlátszó polikarbonát tetőfedés",
-        price: 145000,
+        name: "3m x 3m-es méret",
+        description: "Alapméret",
+        price: 1650000,
       },
       {
         id: "malibu-extra-3",
-        name: "Fém tetőfedés",
-        description: "Időjárásálló fém tetőfedés",
-        price: 190000,
+        name: "4m x 4m-es méret",
+        description: "Nagyobb méretű változat",
+        price: 650000,
       },
       {
         id: "malibu-extra-4",
-        name: "LED világítási rendszer",
-        description:
-          "Energiatakarékos LED világítás a pergola teljes hosszában",
-        price: 95000,
+        name: "Egyedi méret",
+        description: "Testreszabott méretezés egyedi igények szerint",
+        price: 850000,
       },
       {
         id: "malibu-extra-5",
-        name: "Egyedi méret",
-        description: "Egyedi méretezés speciális igények szerint",
-        price: 120000,
+        name: "10 éves bomlási garancia",
+        description: "Alapértelmezett garancia",
+        price: 1650000,
+      },
+      {
+        id: "malibu-extra-6",
+        name: "25 éves bomlási garancia",
+        description: "Kiterjesztett garancia a standard 10 év helyett",
+        price: 380000,
       },
     ],
   },
@@ -106,9 +109,7 @@ export const products = {
         selectedColor: "ring-stone-700",
       },
     ],
-    description: `
-        <p>A Malibu XL a klasszikus Malibu nagytestvére – impozáns méreteivel és robusztus megjelenésével lenyűgöző központi eleme lehet bármely kertnek vagy terasznak. Ideális nagyobb társasági eseményekhez, családi összejövetelekhez, vagy akár szabadtéri étkezőként is funkcionálhat. Egyesíti a prémium anyaghasználatot a modern dizájnnal és kiemelkedő tartóssággal.</p>
-      `,
+    description: `<p>A Malibu XL a klasszikus Malibu nagytestvére – impozáns méreteivel és robusztus megjelenésével lenyűgöző központi eleme lehet bármely kertnek vagy terasznak. Ideális nagyobb társasági eseményekhez, családi összejövetelekhez, vagy akár szabadtéri étkezőként is funkcionálhat. Egyesíti a prémium anyaghasználatot a modern dizájnnal és kiemelkedő tartóssággal.</p>`,
     details: [
       {
         name: "Tulajdonságok",
@@ -125,41 +126,34 @@ export const products = {
     ],
     extras: [
       {
-        id: "malibu-xl-extra-1",
-        name: "8m x 4m méret",
-        description: "Méretbővítés 6m x 3m-ről 8m x 4m-re",
-        price: 290000,
-      },
-      {
-        id: "malibu-xl-extra-2",
-        name: "Polikarbonát tetőfedés",
-        description: "UV-álló, átlátszó polikarbonát tetőfedés",
-        price: 245000,
-      },
-      {
-        id: "malibu-xl-extra-3",
-        name: "Fém tetőfedés",
-        description: "Időjárásálló fém tetőfedés",
+        id: "malibu_xl-extra-1",
+        name: "Opcionális LED világítási rendszer",
+        description: "Opcionális LED világítás a teljes területen",
         price: 320000,
       },
       {
-        id: "malibu-xl-extra-4",
-        name: "LED világítási rendszer",
-        description:
-          "Energiatakarékos LED világítás a pergola teljes hosszában",
-        price: 150000,
+        id: "malibu_xl-extra-2",
+        name: "6m x 3m-es méret",
+        description: "Alapméret",
+        price: 1650000,
       },
       {
-        id: "malibu-xl-extra-5",
-        name: "Beépített hangszóró rendszer",
-        description: "Bluetooth hangszórók a pergola oszlopaiba integrálva",
-        price: 210000,
+        id: "malibu_xl-extra-3",
+        name: "8m x 4m-es méret",
+        description: "Extra nagyméretű változat",
+        price: 950000,
       },
       {
-        id: "malibu-xl-extra-6",
-        name: "Egyedi színezés",
-        description: "Egyedi színű impregnálás a fa szerkezetre",
-        price: 180000,
+        id: "malibu_xl-extra-4",
+        name: "Egyedi méret",
+        description: "Testreszabott méretezés egyedi igények szerint",
+        price: 1150000,
+      },
+      {
+        id: "malibu_xl-extra-5",
+        name: "Kettő konfiguráció",
+        description: "Két különálló beálló speciális kialakítása",
+        price: 680000,
       },
     ],
   },
@@ -184,9 +178,7 @@ export const products = {
         selectedColor: "ring-amber-700",
       },
     ],
-    description: `
-        <p>A Yukon pavilon a kanadai stílusú kültéri építészet megtestesítője – masszív, időtálló és minden részletében prémium. Vastag, 20x20 cm-es gerendái és természetes anyaghasználata autentikus, mégis modern megjelenést biztosít. Ideális választás, ha egy örök darabot keres, amely évtizedeken át díszíti kertjét.</p>
-      `,
+    description: `<p>A Yukon pavilon a kanadai stílusú kültéri építészet megtestesítője – masszív, időtálló és minden részletében prémium. Vastag, 20x20 cm-es gerendái és természetes anyaghasználata autentikus, mégis modern megjelenést biztosít. Ideális választás, ha egy örök darabot keres, amely évtizedeken át díszíti kertjét.</p>`,
     details: [
       {
         name: "Tulajdonságok",
@@ -205,45 +197,27 @@ export const products = {
     extras: [
       {
         id: "yukon-extra-1",
-        name: "5m x 5m méret",
-        description: "Méretbővítés 4m x 4m-ről 5m x 5m-re",
-        price: 350000,
+        name: "4m x 4m-es méret",
+        description: "Alapméret",
+        price: 1650000,
       },
       {
         id: "yukon-extra-2",
-        name: "4m x 6m méret",
-        description: "Téglalap alaprajz 4m x 6m méretben",
-        price: 380000,
+        name: "5m x 5m-es méret",
+        description: "Nagyobb alapterületű változat",
+        price: 750000,
       },
       {
         id: "yukon-extra-3",
-        name: "Cseréptető",
-        description: "Prémium minőségű cseréptető beépítése",
-        price: 480000,
+        name: "4m x 6m-es méret",
+        description: "Hosszabb, téglalap alakú változat",
+        price: 850000,
       },
       {
         id: "yukon-extra-4",
-        name: "Természetes kő oszlopok",
-        description: "Természetes kőburkolatú oszlopok",
-        price: 420000,
-      },
-      {
-        id: "yukon-extra-5",
-        name: "Tégla oszlopok",
-        description: "Döntött tégla burkolatú oszlopok",
-        price: 290000,
-      },
-      {
-        id: "yukon-extra-6",
-        name: "Beton alap kőburkolattal",
-        description: "Professzionális beton alap természetes kő burkolattal",
-        price: 580000,
-      },
-      {
-        id: "yukon-extra-7",
-        name: "Csempe padlóburkolat",
-        description: "Fagyálló csempe padlóburkolat",
-        price: 320000,
+        name: "Egyedi méret",
+        description: "Testreszabott méretezés egyedi igények szerint",
+        price: 1050000,
       },
     ],
   },
@@ -274,9 +248,7 @@ export const products = {
         selectedColor: "ring-neutral-800",
       },
     ],
-    description: `
-        <p>A Saint-Tropez pergola elegáns francia stílusával új szintre emeli a kültéri élményt. A függesztett tetőkialakítás légiességet kölcsönöz, miközben hatékony árnyékolást biztosít. Ideális választás, ha egy modern, mégis karakteres megoldásra vágyik, amely hosszú éveken át megőrzi szépségét és funkcionalitását.</p>
-      `,
+    description: `<p>A Saint-Tropez pergola elegáns francia stílusával új szintre emeli a kültéri élményt. A függesztett tetőkialakítás légiességet kölcsönöz, miközben hatékony árnyékolást biztosít. Ideális választás, ha egy modern, mégis karakteres megoldásra vágyik, amely hosszú éveken át megőrzi szépségét és funkcionalitását.</p>`,
     details: [
       {
         name: "Tulajdonságok",
@@ -294,40 +266,34 @@ export const products = {
     ],
     extras: [
       {
-        id: "saint-tropez-extra-1",
-        name: "8m x 4m méret",
-        description: "Méretbővítés 4m x 4m-ről 8m x 4m-re",
-        price: 380000,
+        id: "saint_tropez-extra-1",
+        name: "4m x 4m-es méret",
+        description: "Alapméret",
+        price: 1650000,
       },
       {
-        id: "saint-tropez-extra-2",
-        name: "12m x 4m méret",
-        description: "Méretbővítés 4m x 4m-ről 12m x 4m-re",
-        price: 750000,
+        id: "saint_tropez-extra-2",
+        name: "8m x 4m-es méret",
+        description: "Dupla széles változat két jármű számára",
+        price: 1650000,
       },
       {
-        id: "saint-tropez-extra-3",
-        name: "Polikarbonát tetőfedés",
-        description: "UV-álló, átlátszó polikarbonát tetőfedés",
-        price: 190000,
+        id: "saint_tropez-extra-3",
+        name: "12m x 4m-es méret",
+        description: "Tripla széles változat három jármű számára",
+        price: 3250000,
       },
       {
-        id: "saint-tropez-extra-4",
-        name: "LED világítási rendszer",
-        description: "Elegáns LED világítás a pergola szerkezetébe integrálva",
-        price: 160000,
+        id: "saint_tropez-extra-4",
+        name: "Egyedi méret",
+        description: "Testreszabott méretezés egyedi igények szerint",
+        price: 1450000,
       },
       {
-        id: "saint-tropez-extra-5",
-        name: "Távvezérelhető árnyékolók",
-        description: "Motoros, távvezérelhető árnyékoló rendszer",
-        price: 280000,
-      },
-      {
-        id: "saint-tropez-extra-6",
-        name: "Egyedi színezés",
-        description: "Egyedi színű impregnálás a fa szerkezetre",
-        price: 120000,
+        id: "saint_tropez-extra-5",
+        name: "Opcionális LED világítási rendszer",
+        description: "Prémium LED világítás a teljes területen",
+        price: 450000,
       },
     ],
   },
