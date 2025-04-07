@@ -11,6 +11,7 @@ export default function Head() {
       <meta name="robots" content="index, follow" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="next-size-adjust" content="100%" />
+      <link rel="icon" href="/favicon.ico" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
