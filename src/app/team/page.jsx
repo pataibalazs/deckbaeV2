@@ -4,7 +4,7 @@ const people = [
   {
     name: "Molnár Patrik",
     role: "Kivitelező",
-    imageUrl: "/pictures/david.jpg",
+    imageUrl: "/pictures/patrik.jpg",
     bio: "Molnár Patrik vagyok, több mint 20 éve dolgozom asztalosként. Nemzetközi tapasztalataimat Kanadában, Ausztráliában és az USA-ban szereztem, különösen pergolák, teraszok és prémium kültéri megoldások kivitelezésében. Jelenleg a Deckbae kültéri bútorait és pergoláit tervezem és gyártom, ahol a modern design és a precíz kézművesség találkozik.",
     xUrl: "#",
     linkedinUrl: "#",
