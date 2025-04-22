@@ -257,8 +257,8 @@ nyaralónak!</p>
       },
       {
         id: "oslo-extra-3",
-        name: "Napelem csomag",
-        description: "Komplett napelemes energiarendszer",
+        name: "Napelem / Akkumulátor / Hőszivattyú csomag",
+        description: "Komplett megújuló energia rendszer",
         price: 16500000,
         scrollToId: "solar-package",
       },
@@ -426,8 +426,8 @@ stílussal!</p>
       },
       {
         id: "montana-extra-2",
-        name: "Napelem csomag",
-        description: "Komplett napelemes energiarendszer",
+        name: "Napelem / Akkumulátor / Hőszivattyú csomag",
+        description: "Komplett megújuló energia rendszer",
         price: 15000000,
         scrollToId: "solar-package",
       },
@@ -556,8 +556,8 @@ információt!</p>
       },
       {
         id: "dallas-extra-2",
-        name: "Napelem csomag",
-        description: "Komplett napelemes energiarendszer",
+        name: "Napelem / Akkumulátor / Hőszivattyú csomag",
+        description: "Komplett megújuló energia rendszer",
         price: 17200000,
         scrollToId: "solar-package",
       },
@@ -720,8 +720,8 @@ kellemes lakóérzetet.</p>
       },
       {
         id: "helsinki-extra-2",
-        name: "Napelem csomag",
-        description: "20 kW teljesítményű napelemes rendszer",
+        name: "Napelem / Akkumulátor / Hőszivattyú csomag",
+        description: "Komplett megújuló energia rendszer",
         price: 18500000,
         scrollToId: "solar-package",
       },
