@@ -102,19 +102,9 @@ const Houses = () => {
             </p>
           </div>
 
-          {/* Render all houses */}
-          <div className="flex flex-col gap-20 mt-10">
-            {Object.entries(products).map(([slug, product]) => (
-              <Item key={slug} product={product} />
-            ))}
-          </div>
-
           {/* Packages section */}
           <div className="mt-24 mb-10">
             <div className="mx-auto max-w-5xl text-center">
-              <p className="text-md font-bold tracking-tight text-red-600">
-                Választható csomagok
-              </p>
               <h2 className="mt-2 mb-10 text-3xl font-semibold tracking-tight text-pretty text-gray-900">
                 Testreszabható kiegészítők minden házunkhoz
               </h2>
@@ -151,11 +141,17 @@ const Houses = () => {
               </p>
               <a
                 href="/contact"
-                className="mt-6 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition-all"
+                className="mb-10 mt-6 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition-all"
               >
                 Kapcsolatfelvétel
               </a>
             </div>
+          </div>
+          {/* Render all houses */}
+          <div className="flex flex-col gap-20 mt-10">
+            {Object.entries(products).map(([slug, product]) => (
+              <Item key={slug} product={product} />
+            ))}
           </div>
         </div>
       </main>
