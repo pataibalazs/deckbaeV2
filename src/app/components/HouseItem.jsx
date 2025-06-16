@@ -219,7 +219,8 @@ export default function Item({ product }) {
             {/* Optional: Disclaimer text */}
             <p className="text-sm text-gray-500 mt-3 text-center lg:text-left lg:max-w-72 xl:max-w-2xl">
               A feltüntetett ár tartalmazza az alapárat és a kiválasztott
-              kiegészítőket.
+              kiegészítőket. Az ár kizárólag tájékoztató jellegű, és nem
+              feltétlenül tükrözi a végleges, valós költséget.
             </p>
           </div>
         </div>

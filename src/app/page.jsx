@@ -2,6 +2,7 @@ import Link from "next/link";
 import FAQ from "./components/FAQ";
 import HeroWithImage from "./components/HeroWithImage";
 import Features from "./components/Features";
+import Options from "./components/Options";
 
 export const metadata = {
   title: "Deckbae - Gyors könnyűszerkezetes házépítés",
@@ -15,6 +16,7 @@ export default function Homepage() {
       <div className="bg-gray-100 flex justify-center">
         <main className="flex flex-col items-center bg-white shadow-md rounded-xl mt-10 max-w-80 xs:max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl">
           <HeroWithImage />
+          <Options />
           <Features />
 
           <div className="mx-auto max-w-2xl text-center mb-10">

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Item from "../components/HouseItem";
+import FAQPergola from "../components/FAQ-pergolas";
 import { products } from "../data/pergolas";
 
 const Pergolas = () => {
@@ -51,6 +52,7 @@ const Pergolas = () => {
               <Item key={slug} product={product} />
             ))}
           </div>
+          <FAQPergola />
         </div>
       </main>
     </div>
