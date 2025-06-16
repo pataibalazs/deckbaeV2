@@ -52,7 +52,7 @@ export default function FAQHouse() {
         <p className="mt-2 text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl sm:text-balance">
           Gyakori kérdések
         </p>
-        <p className="mt-6 text-lg/8 text-gray-600 max-w-72 sm:max-w-md lg:max-w-3xl">
+        <p className="mt-6 text-lg/8 text-gray-600">
           Van olyan kérdésed, amely nem szerepel a listában? Írj nekünk a{" "}
           <Link
             href="/contact"
