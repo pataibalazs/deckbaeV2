@@ -33,7 +33,7 @@ export default function Options() {
         </Link>
 
         <Link
-          href="/szolgaltatasok"
+          href="/services"
           className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
         >
           <WrenchScrewdriverIcon className="w-16 h-16 text-red-600 mb-4" />
