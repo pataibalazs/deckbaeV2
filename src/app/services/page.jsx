@@ -5,30 +5,35 @@ import { useState } from "react";
 
 const services = [
   {
-    title: "Tanácsadás",
+    title: "Lakásfelújítás",
     description:
-      "Segítünk a megfelelő ház, garázs vagy pergola kiválasztásában, hogy az igényeidhez legjobban illő megoldást kapd.",
+      "A lakásfelújítás lehetőséget ad arra, hogy otthonunk igazodjon megváltozott igényeinkhez, stílusunkhoz és a mai kor kényelmi elvárásaihoz. Legyen szó teljes körű felújításról, vagy csak egy-egy helyiség modernizálásáról, a cél mindig ugyanaz: esztétikus, funkcionális és értékálló életteret teremteni. A jól megtervezett felújítás nemcsak komfortérzetünket növeli, de az ingatlan értékét is jelentősen emeli.",
   },
   {
-    title: "Tervezés",
+    title: "Fa és kőteraszok tervezése és építése",
     description:
-      "Egyedi igények alapján tervezzük meg álmaid épületét, legyen szó házról, garázsról vagy pergoláról.",
+      " A terasz az otthon természetbe nyúló meghosszabbítása – egy hely, ahol a pihenés, a vendégfogadás és a szabadtéri élet találkozik. Legyen szó meleg hangulatú fa burkolatról vagy időtálló, elegáns kőfelületről, a megfelelő anyagválasztás és gondos tervezés alapvető a tartós és esztétikus végeredményhez. Csapatunk a terasz kialakítását az Ön igényeire szabva végzi: az ötlettől a látványterven át a precíz kivitelezésig biztosítjuk, hogy új terasza nemcsak szép, hanem időtálló és praktikus is legyen.",
   },
   {
-    title: "Gyártás",
+    title: "Kertépítés és kert tervezés",
     description:
-      "Modern technológiával, prémium anyagokból készítjük el a szerkezeteket, hogy tartós és esztétikus legyen a végeredmény.",
+      "Egy jól megtervezett kert nem csupán dísz, hanem a nyugalom, feltöltődés és közösségi élmények tere. A kertépítéssel értéket, harmóniát és egyedi hangulatot viszünk az otthonába – legyen szó pihenőkertől, modern minimalizmusról vagy természetes vadvirágos stílusról. Álmodja meg, mi pedig megvalósítjuk!",
   },
   {
-    title: "Kivitelezés",
+    title: "Épületgépészeti Szolgáltatások",
     description:
-      "Gyors és precíz helyszíni szerelés, teljes körű lebonyolítással, hogy neked csak az új épület öröme maradjon.",
+      "Az épületgépészet az otthonok és épületek működésének láthatatlan, de nélkülözhetetlen része. Fűtés, hűtés, szellőzés, vízellátás és csatornázás – mind olyan rendszerek, amelyek biztonságos és kényelmes életteret teremtenek. Teljes körű épületgépészeti megoldásainkkal a tervezéstől a kivitelezésig garantáljuk az energiahatékonyságot, a megbízható működést és a hosszú távú megtérülést – lakossági és ipari projektek esetén egyaránt.",
   },
   {
-    title: "Szállítás",
+    title: "Konyha Tervezés és Szerelés",
     description:
-      "Az elkészült szerkezeteket biztonságosan, gyorsan és országosan szállítjuk a helyszínre.",
+      "Az amerikai konyhás elrendezés tágas, világos és közösségi – összeköti a főzést az együttléttel. A magyar hagyományos stílus pedig otthonos, meleg hangulatot teremt természetes anyagokkal, rusztikus részletekkel. Konyhatervezés során ezeket ötvözzük: a nyitott tér kényelmét és a magyar vidéki konyhák lelkesítő hangulatát. Így születik egy olyan tér, ami egyszerre praktikus, meghitt és vendégváró.",
   },
+  {
+  title: "Napelem",
+  description:
+    "Szeretnél kevesebbet fizetni a villanyszámláért, miközben környezetbarát energiát használsz? Teljes körű napelemrendszer-tervezést és kivitelezést kínálunk, az igényeidhez igazítva.",
+},
 ];
 
 const references = [

@@ -33,7 +33,7 @@ export const products = {
       { name: "White", bgColor: "bg-white", selectedColor: "ring-gray-400" },
     ],
     description: `
-        <p>A Modena prémium garázsmegoldásként ötvözi a funkcionalitást és az esztétikát. Autóbeállóként és garázsként is használható, külső falburkolata választható tégla vagy kő, míg a faburkolat igény esetén James Hardie elemekkel is kérhető. A teljes elektromos rendszerrel és világítással felszerelt garázs tökéletes választás a modern igényekhez.</p>
+        <p>A Modena prémium garázsmegoldásként ötvözi a funkcionalitást és az esztétikát. Autóbeállóként és garázsként is használható, külső falburkolata vakolt. A teljes elektromos rendszerrel és világítással felszerelt garázs tökéletes választás a modern igényekhez.</p>
       `,
     details: [
       {
@@ -41,45 +41,13 @@ export const products = {
         items: [
           "Autóbeálló: 4m x 7m",
           "Garázs: 7m x 4,6m",
-          "Külső tégla vagy opcionális kő falburkolat",
           "Beton alap sáv alapozással",
-          "Festett faburkolat vagy opcionális James Hardie burkolat",
           "Komplett világítás és elektromos rendszer",
         ],
       },
     ],
-    extras: [
-      {
-        id: "modena-extra-1",
-        name: "Kő falburkolat",
-        description: "Külső falra prémium kőburkolat tégla helyett",
-        price: 1450000,
-      },
-      {
-        id: "modena-extra-2",
-        name: "James Hardie burkolat",
-        description: "Időjárásálló James Hardie burkolat a fa helyett",
-        price: 1250000,
-      },
-      {
-        id: "modena-extra-3",
-        name: "Automata garázskapu",
-        description: "Távirányítható automata garázskapu",
-        price: 850000,
-      },
-      {
-        id: "modena-extra-4",
-        name: "Prémium világítás csomag",
-        description: "LED spotlámpák és kültéri fényforrások",
-        price: 380000,
-      },
-      {
-        id: "modena-extra-5",
-        name: "Szigetelés csomag",
-        description: "Fal és tető teljes hőszigetelése",
-        price: 950000,
-      },
-    ],
+    extras: []
+     
   },
 
   munich: {
@@ -124,45 +92,12 @@ export const products = {
         items: [
           "Autóbeálló: 7m x 4m",
           "Tároló: 7m x 2,1m",
-          "Külső tégla vagy opcionális kő falburkolat",
           "Beton alap, sáv alapozással",
-          "Festett faburkolat vagy opcionális James Hardie burkolat",
           "Komplett világítás és elektromos rendszer",
         ],
       },
     ],
-    extras: [
-      {
-        id: "munich-extra-1",
-        name: "Kő falburkolat",
-        description: "Külső falra prémium kőburkolat tégla helyett",
-        price: 1200000,
-      },
-      {
-        id: "munich-extra-2",
-        name: "James Hardie burkolat",
-        description: "Időjárásálló James Hardie burkolat a fa helyett",
-        price: 980000,
-      },
-      {
-        id: "munich-extra-3",
-        name: "Kiegészítő tároló",
-        description: "Bővített méretű tároló helyiség",
-        price: 1350000,
-      },
-      {
-        id: "munich-extra-4",
-        name: "LED világítás rendszer",
-        description: "Energiatakarékos LED világítás a teljes területen",
-        price: 320000,
-      },
-      {
-        id: "munich-extra-5",
-        name: "Elektromos csatlakozók",
-        description: "Kiegészítő elektromos csatlakozók, kültéri is",
-        price: 280000,
-      },
-    ],
+    extras: []
   },
 
   tihany: {
@@ -212,38 +147,7 @@ export const products = {
         ],
       },
     ],
-    extras: [
-      {
-        id: "tihany-extra-1",
-        name: "Járólap burkolat",
-        description: "Prémium kültéri járólap burkolat",
-        price: 850000,
-      },
-      {
-        id: "tihany-extra-2",
-        name: "Szigetelés csomag",
-        description: "Teljes hőszigetelés, szigetelt helységgé alakítás",
-        price: 1150000,
-      },
-      {
-        id: "tihany-extra-3",
-        name: "Fűtési rendszer",
-        description: "Elektromos padlófűtés a szigetelt helyiségben",
-        price: 750000,
-      },
-      {
-        id: "tihany-extra-4",
-        name: "Tetőszigetelés",
-        description: "Extra tetőszigetelés csapadék és hő ellen",
-        price: 680000,
-      },
-      {
-        id: "tihany-extra-5",
-        name: "Prémium nyílászárók",
-        description: "Szigetelt, hangszigetelt nyílászárók",
-        price: 950000,
-      },
-    ],
+    extras: [],
   },
 
   toronto: {
@@ -294,37 +198,6 @@ export const products = {
         ],
       },
     ],
-    extras: [
-      {
-        id: "toronto-extra-1",
-        name: "LED világítás rendszer",
-        description: "Teljes LED világítás az autóbeálló területén",
-        price: 290000,
-      },
-      {
-        id: "toronto-extra-2",
-        name: "Napelemes tetőszerkezet",
-        description: "1,5 kW teljesítményű napelem rendszer a tetőn",
-        price: 1750000,
-      },
-      {
-        id: "toronto-extra-3",
-        name: "Nagyobb méretű változat",
-        description: "Kibővített méret: 7m x 7m",
-        price: 1250000,
-      },
-      {
-        id: "toronto-extra-4",
-        name: "Zárható tároló",
-        description: "Oldalsó zárható tárolórész",
-        price: 950000,
-      },
-      {
-        id: "toronto-extra-5",
-        name: "Prémium burkolat",
-        description: "Időjárásálló, prémium külső burkolat",
-        price: 580000,
-      },
-    ],
+    extras: [],
   },
 };

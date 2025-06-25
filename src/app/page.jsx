@@ -19,24 +19,7 @@ export default function Homepage() {
           <Options />
           <Features />
 
-          <div className="mx-auto max-w-2xl text-center mb-10">
-            <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl sm:text-balance">
-              Gyakori kérdések
-            </p>
-            <p className="mt-6 text-lg/8 text-gray-600 max-w-72 sm:max-w-md lg:max-w-3xl">
-              Van olyan kérdésed, amely nem szerepel a listában? Írj nekünk a{" "}
-              <Link
-                href="/contact"
-                className="text-red-600 font-medium hover:underline"
-              >
-                Kontakt
-              </Link>{" "}
-              oldalon.
-            </p>
-          </div>
-          <FAQ />
-
-          <div className="mx-auto w-11/12 lg:text-center mt-20 mb-10">
+          <div className="mx-auto w-11/12 lg:text-center mt-10 mb-10">
             <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl text-center">
               Rólunk
             </p>

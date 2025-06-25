@@ -2,46 +2,19 @@ import Link from "next/link";
 
 const faqs = [
   {
-    question: "Miből készülnek a könnyűszerkezetes házak?",
-    answer:
-      "A könnyűszerkezetes házak alapját acél vagy fa vázszerkezet adja, amelyet különböző szigetelő- és burkolóanyagokkal egészítünk ki. Ezek a modern építőanyagok kiváló hőszigetelést és tartósságot biztosítanak.",
-  },
-  {
-    question:
-      "Igényelhető a CSOK Plusz támogatás könnyűszerkezetes ház építéséhez?",
-    answer:
-      "Igen, a könnyűszerkezetes házakra is igényelhető a CSOK Plusz támogatás.",
-  },
-  {
-    question: "Mennyi idő alatt épül fel egy könnyűszerkezetes ház?",
-    answer:
-      "Az építkezés időtartama a ház méretétől és a választott kivitelezési opciótól függ. Általában 3-6 hónap alatt kulcsrakész állapotba tudjuk hozni az épületet, ami jelentősen rövidebb a hagyományos építkezéseknél.",
-  },
-  {
-    question: "Milyen garanciát vállalnak a házakra?",
-    answer:
-      "Az épületeinkre 10 év szerkezeti garanciát vállalunk, ezen felül pedig az egyes beépített termékekre a gyártói garanciák érvényesek.",
-  },
-  {
     question: "Mennyire energiatakarékosak ezek a házak?",
     answer:
-      "Házaink kifejezetten energiahatékonyak. A korszerű szigetelésnek és a modern épületgépészeti megoldásoknak köszönhetően akár 40-50%-kal alacsonyabb lehet a fűtési-hűtési költség a hagyományos épületekhez képest.",
+      "Házaink kifejezetten energiahatékonyak. A korszerű szigetelésnek és a modern épületgépészeti megoldásoknak köszönhetően akár 50-80%-kal alacsonyabb lehet a fűtési-hűtési költség a hagyományos épületekhez képest. Átlagosan 25cm szigeteléssel készülnek. Egyedi igények szerint ez a szigetelés növelhető!",
   },
   {
-    question: "Van lehetőség egyedi tervezésű épületekre?",
-    answer: (
-      <>
-        Igen, lehetőség van egyedi méretű és kialakítású épületek tervezésére.
-        Vegye fel velünk a kapcsolatot a{" "}
-        <Link
-          href="/contact"
-          className="text-white underline font-medium hover:text-gray-200"
-        >
-          Kontakt
-        </Link>{" "}
-        oldalon, és segítünk megvalósítani elképzeléseit!
-      </>
-    ),
+    question: "Konyhát tartalmaz-e?",
+    answer:
+      "Minden házunk alap felszereltségű konyhabútort, hűtőt, elektromos főzőlapot, elektromos sütőt tartalmaznak",
+  },
+  {
+    question: "Mit tartalmaznak ezek az árak?",
+    answer:
+      "A meghirdetett árak tartalmazzák: Tervezést, engedélyeztetést, teljeskörű kivitelezést, 5%-Áfát.",
   },
 ];
 

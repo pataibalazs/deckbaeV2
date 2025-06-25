@@ -2,46 +2,19 @@ import Link from "next/link";
 
 const faqs = [
   {
-    question: "Miből készülnek a könnyűszerkezetes házak?",
+    question: "Mennyi idő a garázs telepítése?",
     answer:
-      "A könnyűszerkezetes házak alapját acél vagy fa vázszerkezet adja, amelyet különböző szigetelő- és burkolóanyagokkal egészítünk ki. Ezek a modern építőanyagok kiváló hőszigetelést és tartósságot biztosítanak.",
+      "A legtöbb garázs 4-8 hét alatt teljes egészében telepíthető.",
   },
   {
-    question:
-      "Igényelhető a CSOK Plusz támogatás könnyűszerkezetes ház építéséhez?",
+    question: "Milyen engedélyek szükségesek a garázshoz?",
     answer:
-      "Igen, a könnyűszerkezetes házakra is igényelhető a CSOK Plusz támogatás.",
+      "A Deckbae garázsai mobil épületként telepíthetők (pl.: mobilgarázs), ezért nem engedélykötelesek a legtöbb esetben. Érdemes azonban a helyi szabályozásokról előzetesen tájékozódni. Vannak esetek mikor engedély is szükséges.",
   },
   {
-    question: "Mennyi idő alatt épül fel egy könnyűszerkezetes ház?",
+    question: "Mit tartalmaznak az árak?",
     answer:
-      "Az építkezés időtartama a ház méretétől és a választott kivitelezési opciótól függ. Általában 3-6 hónap alatt kulcsrakész állapotba tudjuk hozni az épületet, ami jelentősen rövidebb a hagyományos építkezéseknél.",
-  },
-  {
-    question: "Milyen garanciát vállalnak a házakra?",
-    answer:
-      "Az épületeinkre 10 év szerkezeti garanciát vállalunk, ezen felül pedig az egyes beépített termékekre a gyártói garanciák érvényesek.",
-  },
-  {
-    question: "Mennyire energiatakarékosak ezek a házak?",
-    answer:
-      "Házaink kifejezetten energiahatékonyak. A korszerű szigetelésnek és a modern épületgépészeti megoldásoknak köszönhetően akár 40-50%-kal alacsonyabb lehet a fűtési-hűtési költség a hagyományos épületekhez képest.",
-  },
-  {
-    question: "Van lehetőség egyedi tervezésű épületekre?",
-    answer: (
-      <>
-        Igen, lehetőség van egyedi méretű és kialakítású épületek tervezésére.
-        Vegye fel velünk a kapcsolatot a{" "}
-        <Link
-          href="/contact"
-          className="text-white underline font-medium hover:text-gray-200"
-        >
-          Kontakt
-        </Link>{" "}
-        oldalon, és segítünk megvalósítani elképzeléseit!
-      </>
-    ),
+      "Az árak tartalmazzák a garázs anyagköltségét, gyártását, szállítását, valamint a helyszíni szerelést, továbbá 27% áfát is.",
   },
 ];
 

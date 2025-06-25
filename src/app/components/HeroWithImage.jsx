@@ -15,20 +15,6 @@ export default function HeroWithImage() {
               megoldások és időtálló dizájn – minden, amit egy tökéletes otthon
               nyújthat.
             </p>
-            <div className="mt-10 flex items-center gap-x-6">
-              <Link
-                href="/houses"
-                className="rounded-md bg-red-600 px-4 py-2 xs:px-6 xs:py-3 text-sm sm:text-lg font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 transition-colors whitespace-nowrap"
-              >
-                Kezdjük el!
-              </Link>
-              <Link
-                href="/houses"
-                className="text-lg font-semibold text-gray-900 whitespace-nowrap"
-              >
-                Tudj meg többet <span aria-hidden="true">→</span>
-              </Link>
-            </div>
           </div>
         </div>
         <div className="relative p-4 sm:pt-0 xs:p-4 lg:p-0 lg:h-[85%] lg:col-span-6 lg:-mr-0 xl:absolute xl:inset-0 xl:left-1/2 xl:bottom-1/4 xl:mr-0 2xl:w-160">

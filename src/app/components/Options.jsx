@@ -20,7 +20,7 @@ export default function Options() {
           href="/pergolas"
           className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
         >
-          <BuildingOffice2Icon className="w-16 h-16 text-red-600 mb-4" />
+          <img src="./icons/pergola.svg" className="w-16 h-16 mb-4" />
           <span className="text-xl font-semibold text-gray-800">Pergolák</span>
         </Link>
 
@@ -28,7 +28,7 @@ export default function Options() {
           href="/garages"
           className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
         >
-          <HomeModernIcon className="w-16 h-16 text-red-600 mb-4" />
+          <img src="./icons/garage.svg" className="w-16 h-16 mb-4" />
           <span className="text-xl font-semibold text-gray-800">Garázsok</span>
         </Link>
 
