@@ -2,47 +2,31 @@ import Link from "next/link";
 
 const faqs = [
   {
-    question: "Miből készülnek a könnyűszerkezetes házak?",
+    question: "Mennyi időt vesz igénybe a kivitelezés a megrendeléstől számítva?",
     answer:
-      "A könnyűszerkezetes házak alapját acél vagy fa vázszerkezet adja, amelyet különböző szigetelő- és burkolóanyagokkal egészítünk ki. Ezek a modern építőanyagok kiváló hőszigetelést és tartósságot biztosítanak.",
+      "4-6 Hét elkészülési ideje az ALAP modellnek.",
   },
   {
     question:
-      "Igényelhető a CSOK Plusz támogatás könnyűszerkezetes ház építéséhez?",
+      "Mennyi idő a telepítés?",
     answer:
-      "Igen, a könnyűszerkezetes házakra is igényelhető a CSOK Plusz támogatás.",
+      "Legtöbb pergola telepítése egy napon belül megtörténik.",
   },
   {
-    question: "Mennyi idő alatt épül fel egy könnyűszerkezetes ház?",
+    question: "Milyen engedélyek szükségesek a pergolához?",
     answer:
-      "Az építkezés időtartama a ház méretétől és a választott kivitelezési opciótól függ. Általában 3-6 hónap alatt kulcsrakész állapotba tudjuk hozni az épületet, ami jelentősen rövidebb a hagyományos építkezéseknél.",
+      `A Deckbae Pergolák telepíthetőek "mobil" épületként (Pl: mobilgarázs) ezért nem engedély köteles.`,
   },
   {
-    question: "Milyen garanciát vállalnak a házakra?",
+    question: "Szükséges-e hozzá beton alap?",
     answer:
-      "Az épületeinkre 10 év szerkezeti garanciát vállalunk, ezen felül pedig az egyes beépített termékekre a gyártói garanciák érvényesek.",
+      "A Deckbae Pergolákat bármilyen felületre tudjuk telepíteni, alap sem szükséges hozzá!",
   },
   {
-    question: "Mennyire energiatakarékosak ezek a házak?",
+    question: "Mit tartalmaznak az árak?",
     answer:
-      "Házaink kifejezetten energiahatékonyak. A korszerű szigetelésnek és a modern épületgépészeti megoldásoknak köszönhetően akár 40-50%-kal alacsonyabb lehet a fűtési-hűtési költség a hagyományos épületekhez képest.",
-  },
-  {
-    question: "Van lehetőség egyedi tervezésű épületekre?",
-    answer: (
-      <>
-        Igen, lehetőség van egyedi méretű és kialakítású épületek tervezésére.
-        Vegye fel velünk a kapcsolatot a{" "}
-        <Link
-          href="/contact"
-          className="text-white underline font-medium hover:text-gray-200"
-        >
-          Kontakt
-        </Link>{" "}
-        oldalon, és segítünk megvalósítani elképzeléseit!
-      </>
-    ),
-  },
+      "Az árak magukban foglalják a termékek anyag, gyártási, szállítási, telepítési díjat, 27%-os áfát.",
+  }
 ];
 
 export default function FAQPergola() {

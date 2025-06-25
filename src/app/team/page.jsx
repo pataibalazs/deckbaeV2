@@ -5,7 +5,7 @@ const people = [
     name: "Molnár Patrik",
     role: "Kivitelező",
     imageUrl: "/pictures/patrik.jpg",
-    bio: "Molnár Patrik vagyok, több mint 20 éve dolgozom asztalosként. Nemzetközi tapasztalataimat Kanadában, Ausztráliában és az USA-ban szereztem, különösen pergolák, teraszok és prémium kültéri megoldások kivitelezésében. Jelenleg a Deckbae kültéri bútorait és pergoláit tervezem és gyártom, ahol a modern design és a precíz kézművesség találkozik.",
+    bio: `Molnár Patrik vagyok, a Deckbae Global Kft. alapítója és projektmenedzsere. \n Műszaki tapasztalataimat elsősorban a szerkezeti ácsmunkákra és a kültéri burkolatok kivitelezésére alapoztam. Vezettem generálkivitelező és ács cégeket Torontóban, Sydneyben, Los Angelesben, jelenleg pedig Budapesten dolgozom. \n Alig várom, hogy együtt dolgozhassunk a következő projekteden!`,
     xUrl: "#",
     linkedinUrl: "#",
   },
@@ -13,7 +13,7 @@ const people = [
     name: "Rőczei Gellért Dávid",
     role: "Kivitelező",
     imageUrl: "/pictures/david.jpg",
-    bio: "Precíz, pontos, gyors és rugalmas épületgépésztechnikus vagyok, 7 éves tapasztalattal a szakmában. Ács végzettséggel is rendelkezem, és széleskörű tapasztalattal bírok légkezelők, központi fűtés, klímák, gázkazánok és vegyestüzelésű kazánok kivitelezésében és tervezésében, mind lakossági, mind ipari környezetben. Alapszerelések mestereként mottóm: „Úgy állj hozzá a munkához, hogy más is odaférjen.”",
+    bio: "Precíz, pontos, gyors és rugalmas épületgépésztechnikus vagyok, 7 éves tapasztalattal a szakmában. Ács végzettséggel is rendelkezem, és széleskörű tapasztalattal bírok légkezelők, központi fűtés, klímák, gázkazánok és vegyestüzelésű kazánok kivitelezésében és tervezésében, mind lakossági, mind ipari környezetben.\n Alapszerelések mestereként mottóm: „Úgy állj hozzá a munkához, hogy más is odaférjen.”",
     xUrl: "#",
     linkedinUrl: "#",
   },
@@ -75,7 +75,7 @@ export default function Team() {
                         {person.name}
                       </h2>
                       <p className="text-base/7 text-gray-600">{person.role}</p>
-                      <p className="mt-4 text-base/7 text-gray-600">
+                      <p className="mt-4 text-base/7 text-gray-600 whitespace-pre-line">
                         {person.bio}
                       </p>
                     </li>
