@@ -96,6 +96,36 @@ export const products = {
         src: "/pictures/houses/santa-cruz/15.png",
         alt: "Santa Cruz ház klasszikus alaprajz szobafelosztással",
       },
+      {
+        id: 16,
+        name: "Ház",
+        src: "/pictures/houses/santa-cruz/1.jpg",
+        alt: "Santa Cruz könnyűszerkezetes ház valós fotó természetes környezetben",
+      },
+      {
+        id: 17,
+        name: "Ház",
+        src: "/pictures/houses/santa-cruz/2.jpg",
+        alt: "Santa Cruz ház valós fotó modern homlokzattal és terasszal",
+      },
+      {
+        id: 18,
+        name: "Ház",
+        src: "/pictures/houses/santa-cruz/3.jpg",
+        alt: "Santa Cruz könnyűszerkezetes ház valós fotó kültéri részletekkel",
+      },
+      {
+        id: 19,
+        name: "Ház",
+        src: "/pictures/houses/santa-cruz/4.jpg",
+        alt: "Santa Cruz ház valós fotó komplett homlokzati megjelenéssel",
+      },
+      {
+        id: 20,
+        name: "Ház",
+        src: "/pictures/houses/santa-cruz/5.jpg",
+        alt: "Santa Cruz könnyűszerkezetes ház valós fotó környezeti illeszkedéssel",
+      },
     ],
     colors: [
       {
@@ -132,21 +162,24 @@ vagy befektetésnek. Lépj kapcsolatba velünk további információért!</p>
       {
         id: "sc-extra-2",
         name: "Gáz csomag",
-        description: "Kondenzációs gázkazán, Fűtés, Melegvíz készítés, Padlófűtési rendszer",
+        description:
+          "Kondenzációs gázkazán, Fűtés, Melegvíz készítés, Padlófűtési rendszer",
         price: 3200000,
         scrollToId: "gas-package",
       },
       {
         id: "sc-extra-3",
         name: "Napelem / Akkumulátor / Hőszivattyú csomag",
-        description: "12kW Napelem rendszer. 12kW Akkumulátor energia tároló. 5kW Hőszivattyú (melegvíz+padlófűtés)",
+        description:
+          "12kW Napelem rendszer. 12kW Akkumulátor energia tároló. 5kW Hőszivattyú (melegvíz+padlófűtés)",
         price: 10500000,
         scrollToId: "solar-package",
       },
       {
         id: "sc-extra-4",
         name: "Prémium csomag",
-        description: "Luxus Konyhabútor.  Kő munkapultok.  Választható prémium fa vagy csempe padlóburkolatok. Minőségi Csaptelepek és szerelvények. Időt álló fa vagy aluminium nyílászárók.",
+        description:
+          "Luxus Konyhabútor.  Kő munkapultok.  Választható prémium fa vagy csempe padlóburkolatok. Minőségi Csaptelepek és szerelvények. Időt álló fa vagy aluminium nyílászárók.",
         price: 9390000,
         scrollToId: "premium-package",
       },
@@ -195,6 +228,42 @@ vagy befektetésnek. Lépj kapcsolatba velünk további információért!</p>
         src: "/pictures/houses/oslo/6.png",
         alt: "Oslo ház belső alaprajz két hálószobával és fedett terasszal",
       },
+      {
+        id: 7,
+        name: "Ház",
+        src: "/pictures/houses/oslo/1.jpg",
+        alt: "Oslo könnyűszerkezetes ház valós fotó természetes környezetben",
+      },
+      {
+        id: 8,
+        name: "Ház",
+        src: "/pictures/houses/oslo/2.jpg",
+        alt: "Oslo ház valós fotó modern homlokzattal és terasszal",
+      },
+      {
+        id: 9,
+        name: "Ház",
+        src: "/pictures/houses/oslo/3.jpg",
+        alt: "Oslo könnyűszerkezetes ház valós fotó kültéri részletekkel",
+      },
+      {
+        id: 10,
+        name: "Ház",
+        src: "/pictures/houses/oslo/4.jpg",
+        alt: "Oslo ház valós fotó komplett homlokzati megjelenéssel",
+      },
+      {
+        id: 11,
+        name: "Ház",
+        src: "/pictures/houses/oslo/5.jpg",
+        alt: "Oslo könnyűszerkezetes ház valós fotó környezeti illeszkedéssel",
+      },
+      {
+        id: 12,
+        name: "Ház",
+        src: "/pictures/houses/oslo/6.jpg",
+        alt: "Oslo ház valós fotó fedett terasszal és természetes környezettel",
+      },
     ],
     colors: [
       {
@@ -233,28 +302,32 @@ nyaralónak!</p>
       {
         id: "oslo-extra-1",
         name: "Garázs",
-        description: "2 autós garázsbeálló. Házhoz csatlakozó, designban illeszkedő garázs.",
+        description:
+          "2 autós garázsbeálló. Házhoz csatlakozó, designban illeszkedő garázs.",
         price: 7800000,
         scrollToId: "garage-package",
       },
       {
         id: "oslo-extra-2",
         name: "Gáz csomag",
-        description: "Kondenzációs gázkazán, Fűtés, Melegvíz készítés, Padlófűtési rendszer.",
+        description:
+          "Kondenzációs gázkazán, Fűtés, Melegvíz készítés, Padlófűtési rendszer.",
         price: 3875000,
         scrollToId: "gas-package",
       },
       {
         id: "oslo-extra-3",
         name: "Napelem / Akkumulátor / Hőszivattyú csomag",
-        description: "18kW Napelem rendszer. 18kW Akkumulátor energia tároló. 10kW Hőszivattyú (melegvíz+padlófűtés).",
+        description:
+          "18kW Napelem rendszer. 18kW Akkumulátor energia tároló. 10kW Hőszivattyú (melegvíz+padlófűtés).",
         price: 14500000,
         scrollToId: "solar-package",
       },
       {
         id: "oslo-extra-4",
         name: "Prémium csomag",
-        description: "Luxus konyhabútor. Kő munkapultok. Választható prémium fa vagy csempe padlóburkolatok. Minőségi csaptelepek és szerelvények. Időt álló fa vagy aluminium nyílászárók.",
+        description:
+          "Luxus konyhabútor. Kő munkapultok. Választható prémium fa vagy csempe padlóburkolatok. Minőségi csaptelepek és szerelvények. Időt álló fa vagy aluminium nyílászárók.",
         price: 11800000,
         scrollToId: "premium-package",
       },
@@ -351,6 +424,24 @@ nyaralónak!</p>
         src: "/pictures/houses/montana/14.png",
         alt: "Légi felvétel a Montana típusú könnyűszerkezetes házról",
       },
+      {
+        id: 15,
+        name: "Ház",
+        src: "/pictures/houses/montana/1.jpg",
+        alt: "Montana könnyűszerkezetes ház valós fotó természetes környezetben",
+      },
+      {
+        id: 16,
+        name: "Ház",
+        src: "/pictures/houses/montana/2.jpg",
+        alt: "Montana ház valós fotó modern homlokzattal és terasszal",
+      },
+      {
+        id: 17,
+        name: "Ház",
+        src: "/pictures/houses/montana/3.jpg",
+        alt: "Montana könnyűszerkezetes ház valós fotó kültéri részletekkel",
+      },
     ],
     colors: [
       {
@@ -389,21 +480,24 @@ stílussal!</p>
       {
         id: "montana-extra-1",
         name: "Gáz csomag",
-        description: "Kondenzációs gázkazán. fűtés. melegvíz készítés. padlófűtési rendszer.",
+        description:
+          "Kondenzációs gázkazán. fűtés. melegvíz készítés. padlófűtési rendszer.",
         price: 3500000,
         scrollToId: "gas-package",
       },
       {
         id: "montana-extra-2",
         name: "Napelem / Akkumulátor / Hőszivattyú csomag",
-        description: "18kW Napelem rendszer. 18kW Akkumulátor energia tároló. 10kW Hőszivattyú (melegvíz+padlófűtés).",
+        description:
+          "18kW Napelem rendszer. 18kW Akkumulátor energia tároló. 10kW Hőszivattyú (melegvíz+padlófűtés).",
         price: 13700000,
         scrollToId: "solar-package",
       },
       {
         id: "montana-extra-3",
         name: "Prémium csomag",
-        description: "Luxus Konyhabútor.  Kő munkapultok.  Választható prémium fa vagy csempe padlóburkolatok. Minőségi csaptelepek és szerelvények. Időt álló fa vagy aluminium nyílászárók.",
+        description:
+          "Luxus Konyhabútor.  Kő munkapultok.  Választható prémium fa vagy csempe padlóburkolatok. Minőségi csaptelepek és szerelvények. Időt álló fa vagy aluminium nyílászárók.",
         price: 11000000,
         scrollToId: "premium-package",
       },
@@ -502,14 +596,16 @@ információt!</p>
       {
         id: "dallas-extra-2",
         name: "Napelem / Akkumulátor / Hőszivattyú csomag",
-        description: "18kW Napelem rendszer. 18kW Akkumulátor energia tároló. 10kW Hőszivattyú (melegvíz+padlófűtés).",
+        description:
+          "18kW Napelem rendszer. 18kW Akkumulátor energia tároló. 10kW Hőszivattyú (melegvíz+padlófűtés).",
         price: 14700000,
         scrollToId: "solar-package",
       },
       {
         id: "dallas-extra-3",
         name: "Prémium csomag",
-        description: "Luxus Konyhabútor.  Kő munkapultok.  Választható prémium fa vagy csempe padlóburkolatok. Minőségi Csaptelepek és szerelvények. Időt álló fa vagy aluminium nyílászárók.",
+        description:
+          "Luxus Konyhabútor.  Kő munkapultok.  Választható prémium fa vagy csempe padlóburkolatok. Minőségi Csaptelepek és szerelvények. Időt álló fa vagy aluminium nyílászárók.",
         price: 11800000,
         scrollToId: "premium-package",
       },
@@ -533,6 +629,18 @@ információt!</p>
         name: "Terv",
         src: "/pictures/houses/helsinki/2.png",
         alt: "Helsinki könnyűszerkezetes ház alaprajz, 128m² beosztással",
+      },
+      {
+        id: 16,
+        name: "Ház",
+        src: "/pictures/houses/helsinki/1.jpg",
+        alt: "Helsinki könnyűszerkezetes ház valós fotó természetes környezetben",
+      },
+      {
+        id: 17,
+        name: "Ház",
+        src: "/pictures/houses/helsinki/2.jpg",
+        alt: "Helsinki ház valós fotó modern homlokzattal és környezettel",
       },
       {
         id: 3,
@@ -648,21 +756,24 @@ kellemes lakóérzetet.</p>
       {
         id: "helsinki-extra-1",
         name: "Gáz csomag",
-        description: "Kondenzációs gázkazán. Fűtés. Melegvíz készítés. Padlófűtési rendszer",
+        description:
+          "Kondenzációs gázkazán. Fűtés. Melegvíz készítés. Padlófűtési rendszer",
         price: 4900000,
         scrollToId: "gas-package",
       },
       {
         id: "helsinki-extra-2",
         name: "Napelem / Akkumulátor / Hőszivattyú csomag",
-        description: "24kW Napelem rendszer. 30kW Akkumulátor energia tároló. 16kW Hőszivattyú (melegvíz+padlófűtés).",
+        description:
+          "24kW Napelem rendszer. 30kW Akkumulátor energia tároló. 16kW Hőszivattyú (melegvíz+padlófűtés).",
         price: 19500000,
         scrollToId: "solar-package",
       },
       {
         id: "helsinki-extra-3",
         name: "Prémium csomag",
-        description: "Luxus Konyhabútor.  Kő munkapultok.  Választható prémium fa vagy csempe padlóburkolatok. Minőségi Csaptelepek és szerelvények. Időt álló fa vagy aluminium nyílászárók.",
+        description:
+          "Luxus Konyhabútor.  Kő munkapultok.  Választható prémium fa vagy csempe padlóburkolatok. Minőségi Csaptelepek és szerelvények. Időt álló fa vagy aluminium nyílászárók.",
         price: 14350000,
         scrollToId: "premium-package",
       },

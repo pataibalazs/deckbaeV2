@@ -17,6 +17,66 @@ export const products = {
         src: "/pictures/pergolas/malibu/haz2.png",
         alt: "Terv",
       },
+      {
+        id: 3,
+        name: "Referencia 1",
+        src: "/pictures/pergolas/malibu/1.jpg",
+        alt: "Referencia 1",
+      },
+      {
+        id: 4,
+        name: "Referencia 2",
+        src: "/pictures/pergolas/malibu/2.jpg",
+        alt: "Referencia 2",
+      },
+      {
+        id: 5,
+        name: "Referencia 3",
+        src: "/pictures/pergolas/malibu/3.jpg",
+        alt: "Referencia 3",
+      },
+      {
+        id: 6,
+        name: "Referencia 4",
+        src: "/pictures/pergolas/malibu/4.jpg",
+        alt: "Referencia 4",
+      },
+      {
+        id: 7,
+        name: "Referencia 5",
+        src: "/pictures/pergolas/malibu/5.jpg",
+        alt: "Referencia 5",
+      },
+      {
+        id: 8,
+        name: "Referencia 6",
+        src: "/pictures/pergolas/malibu/6.jpg",
+        alt: "Referencia 6",
+      },
+      {
+        id: 9,
+        name: "Referencia 7",
+        src: "/pictures/pergolas/malibu/7.jpg",
+        alt: "Referencia 7",
+      },
+      {
+        id: 10,
+        name: "Referencia 8",
+        src: "/pictures/pergolas/malibu/8.jpg",
+        alt: "Referencia 8",
+      },
+      {
+        id: 11,
+        name: "Referencia 9",
+        src: "/pictures/pergolas/malibu/9.jpg",
+        alt: "Referencia 9",
+      },
+      {
+        id: 12,
+        name: "Referencia 10",
+        src: "/pictures/pergolas/malibu/10.jpg",
+        alt: "Referencia 10",
+      },
     ],
     colors: [
       {
@@ -59,13 +119,15 @@ export const products = {
       {
         id: "malibu-extra-3",
         name: "Trapézlemez tetőfedés",
-        description: "Tartós, könnyű és vízzáró fémlemez, amely gyorsan és hatékonyan védi a tetőszerkezetet.",
+        description:
+          "Tartós, könnyű és vízzáró fémlemez, amely gyorsan és hatékonyan védi a tetőszerkezetet.",
         price: 220000,
       },
       {
         id: "malibu-extra-4",
         name: "Polikarbonát tetőfedés",
-        description: "Átlátszó, ütésálló műanyag tetőfedés, amely természetes fényt enged át és időjárásálló védelmet nyújt.",
+        description:
+          "Átlátszó, ütésálló műanyag tetőfedés, amely természetes fényt enged át és időjárásálló védelmet nyújt.",
         price: 400000,
       },
     ],
@@ -88,6 +150,54 @@ export const products = {
         name: "Malibu XL",
         src: "/pictures/pergolas/malibu-xl/haz2.png",
         alt: "Malibu XL",
+      },
+      {
+        id: 3,
+        name: "Referencia 1",
+        src: "/pictures/pergolas/malibu-xl/1.jpg",
+        alt: "Referencia 1",
+      },
+      {
+        id: 4,
+        name: "Referencia 2",
+        src: "/pictures/pergolas/malibu-xl/2.jpg",
+        alt: "Referencia 2",
+      },
+      {
+        id: 5,
+        name: "Referencia 3",
+        src: "/pictures/pergolas/malibu-xl/3.jpg",
+        alt: "Referencia 3",
+      },
+      {
+        id: 6,
+        name: "Referencia 4",
+        src: "/pictures/pergolas/malibu-xl/4.jpg",
+        alt: "Referencia 4",
+      },
+      {
+        id: 7,
+        name: "Referencia 5",
+        src: "/pictures/pergolas/malibu-xl/5.jpg",
+        alt: "Referencia 5",
+      },
+      {
+        id: 8,
+        name: "Referencia 6",
+        src: "/pictures/pergolas/malibu-xl/6.jpg",
+        alt: "Referencia 6",
+      },
+      {
+        id: 9,
+        name: "Referencia 7",
+        src: "/pictures/pergolas/malibu-xl/7.jpg",
+        alt: "Referencia 7",
+      },
+      {
+        id: 10,
+        name: "Referencia 8",
+        src: "/pictures/pergolas/malibu-xl/8.jpg",
+        alt: "Referencia 8",
       },
     ],
     colors: [
@@ -128,13 +238,15 @@ export const products = {
       {
         id: "malibu_xl-extra-3",
         name: "Trapézlemez tetőfedés",
-        description: "Tartós, könnyű és vízzáró fémlemez, amely gyorsan és hatékonyan védi a tetőszerkezetet.",
+        description:
+          "Tartós, könnyű és vízzáró fémlemez, amely gyorsan és hatékonyan védi a tetőszerkezetet.",
         price: 220000,
       },
       {
         id: "malibu_xl-extra-4",
         name: "Polikarbonát tetőfedés",
-        description: "Átlátszó, ütésálló műanyag tetőfedés, amely természetes fényt enged át és időjárásálló védelmet nyújt.",
+        description:
+          "Átlátszó, ütésálló műanyag tetőfedés, amely természetes fényt enged át és időjárásálló védelmet nyújt.",
         price: 400000,
       },
     ],
@@ -151,6 +263,42 @@ export const products = {
         name: "Yukon",
         src: "/pictures/pergolas/yukon/haz1.png",
         alt: "Yukon",
+      },
+      {
+        id: 2,
+        name: "Referencia 1",
+        src: "/pictures/pergolas/yukon/1.jpg",
+        alt: "Referencia 1",
+      },
+      {
+        id: 3,
+        name: "Referencia 2",
+        src: "/pictures/pergolas/yukon/2.jpg",
+        alt: "Referencia 2",
+      },
+      {
+        id: 4,
+        name: "Referencia 3",
+        src: "/pictures/pergolas/yukon/3.jpg",
+        alt: "Referencia 3",
+      },
+      {
+        id: 5,
+        name: "Referencia 4",
+        src: "/pictures/pergolas/yukon/4.jpg",
+        alt: "Referencia 4",
+      },
+      {
+        id: 6,
+        name: "Referencia 5",
+        src: "/pictures/pergolas/yukon/5.jpg",
+        alt: "Referencia 5",
+      },
+      {
+        id: 7,
+        name: "Referencia 6",
+        src: "/pictures/pergolas/yukon/6.jpg",
+        alt: "Referencia 6",
       },
     ],
     colors: [
@@ -196,7 +344,8 @@ export const products = {
       {
         id: "yukon-extra-4",
         name: "Cseréptető",
-        description: "Tartós, időjárásálló tetőfedés, amely esztétikus és hosszú élettartamú.",
+        description:
+          "Tartós, időjárásálló tetőfedés, amely esztétikus és hosszú élettartamú.",
         price: 165000,
       },
     ],
@@ -219,6 +368,54 @@ export const products = {
         name: "Saint-Tropez",
         src: "/pictures/pergolas/saint-tropez/haz2.png",
         alt: "Saint-Tropez",
+      },
+      {
+        id: 3,
+        name: "Referencia 1",
+        src: "/pictures/pergolas/saint-tropez/1.jpg",
+        alt: "Referencia 1",
+      },
+      {
+        id: 4,
+        name: "Referencia 2",
+        src: "/pictures/pergolas/saint-tropez/2.jpg",
+        alt: "Referencia 2",
+      },
+      {
+        id: 6,
+        name: "Referencia 4",
+        src: "/pictures/pergolas/saint-tropez/4.jpg",
+        alt: "Referencia 4",
+      },
+      {
+        id: 8,
+        name: "Referencia 6",
+        src: "/pictures/pergolas/saint-tropez/6.jpg",
+        alt: "Referencia 6",
+      },
+      {
+        id: 9,
+        name: "Referencia 7",
+        src: "/pictures/pergolas/saint-tropez/7.jpg",
+        alt: "Referencia 7",
+      },
+      {
+        id: 10,
+        name: "Referencia 8",
+        src: "/pictures/pergolas/saint-tropez/8.jpg",
+        alt: "Referencia 8",
+      },
+      {
+        id: 11,
+        name: "Referencia 9",
+        src: "/pictures/pergolas/saint-tropez/9.jpg",
+        alt: "Referencia 9",
+      },
+      {
+        id: 12,
+        name: "Referencia 10",
+        src: "/pictures/pergolas/saint-tropez/10.jpg",
+        alt: "Referencia 10",
       },
     ],
     colors: [

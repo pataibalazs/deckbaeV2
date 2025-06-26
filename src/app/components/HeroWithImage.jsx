@@ -20,8 +20,8 @@ export default function HeroWithImage() {
         <div className="relative p-4 sm:pt-0 xs:p-4 lg:p-0 lg:h-[85%] lg:col-span-6 lg:-mr-0 xl:absolute xl:inset-0 xl:left-1/2 xl:bottom-1/4 xl:mr-0 2xl:w-160">
           <img
             alt="DECKBAE"
-            src="/pictures/dock.jpg"
-            className="aspect-3/2 w-full bg-gray-50 object-cover rounded-md lg:absolute lg:inset-0 lg:aspect-auto lg:h-full lg:min-h-full object-right-top"
+            src="/pictures/hero.jpg"
+            className="aspect-3/2 w-full bg-gray-50 object-cover rounded-md lg:absolute lg:inset-0 lg:aspect-auto lg:h-full lg:min-h-full"
           />
         </div>
       </div>

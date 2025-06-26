@@ -17,6 +17,7 @@ import {
   XCircleIcon,
 } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 function formatPrice(price) {
@@ -59,17 +60,24 @@ export default function Item({ product }) {
             <TabGroup className="flex flex-col-reverse">
               {/* Thumbnails */}
               <div className="mt-6 w-full sm:block">
-                <TabList className="grid grid-cols-4 gap-4 sm:justify-items-start">
+                <TabList className="grid grid-cols-4 gap-4">
                   {product.images.map((image) => (
                     <Tab
                       key={image.id}
-                      className="relative cursor-pointer w-full sm:w-auto"
+                      className="relative cursor-pointer rounded-md overflow-hidden focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
                     >
-                      <img
-                        src={image.src}
-                        alt={image.alt}
-                        className="rounded-md object-cover w-full h-16 sm:h-20"
-                      />
+                      <div className="aspect-[4/3] w-full overflow-hidden rounded-md bg-gray-200">
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          width={120}
+                          height={90}
+                          className="w-full h-full object-cover transition-transform duration-200 hover:scale-105"
+                          priority={false}
+                          placeholder="blur"
+                          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                        />
+                      </div>
                     </Tab>
                   ))}
                 </TabList>
@@ -79,14 +87,16 @@ export default function Item({ product }) {
               <TabPanels>
                 {product.images.map((image) => (
                   <TabPanel key={image.id}>
-                    <div
-                      className="h-[300px] flex justify-center items-center rounded-sm overflow-hidden"
-                      style={{ minHeight: "300px" }}
-                    >
-                      <img
+                    <div className="w-full aspect-[4/3] rounded-sm overflow-hidden">
+                      <Image
                         src={image.src}
                         alt={image.alt}
-                        className="max-w-full max-h-[300px] object-contain rounded-sm"
+                        width={400}
+                        height={300}
+                        className="w-full h-full object-cover rounded-sm"
+                        priority={true}
+                        placeholder="blur"
+                        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                       />
                     </div>
                   </TabPanel>
@@ -158,35 +168,39 @@ export default function Item({ product }) {
               </h3>
               <h3 className="text-md text-gray-900 mb-6">
                 Részletes csomagismertetés a lap alján található.
-              </h3>
-
+              </h3>{" "}
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
                 {extras.map((extra) => (
                   <button
                     key={extra.id}
                     onClick={() => toggleExtra(extra.id)}
-                    className={`p-4 border rounded-lg text-left transition-colors ${
+                    className={`relative p-4 border rounded-lg text-left transition-colors h-auto min-h-fit ${
                       isExtraSelected(extra.id)
                         ? "border-green-600 bg-green-50"
                         : "border-gray-200 hover:border-gray-300"
                     }`}
                   >
-                    <div className="flex justify-between items-center">
-                      <h4 className="text-lg font-medium text-gray-900">
-                        {extra.name}
-                      </h4>
+                    {/* Fixed position icon in top right corner */}
+                    <div className="absolute top-4 right-4">
                       {isExtraSelected(extra.id) ? (
                         <CheckCircleIcon className="h-6 w-6 text-green-600" />
                       ) : (
                         <XCircleIcon className="h-6 w-6 text-gray-400" />
                       )}
                     </div>
-                    <p className="mt-1 text-sm text-gray-500">
-                      {extra.description}
-                    </p>
-                    <p className="mt-2 text-gray-900 font-medium">
-                      + {formatPrice(extra.price)} Ft
-                    </p>
+
+                    {/* Content with right margin to avoid overlap with icon - aligned to top */}
+                    <div className="pr-8 flex flex-col justify-start items-start h-full">
+                      <h4 className="text-lg font-medium text-gray-900">
+                        {extra.name}
+                      </h4>
+                      <p className="mt-1 text-sm text-gray-500">
+                        {extra.description}
+                      </p>
+                      <p className="mt-2 text-gray-900 font-medium">
+                        + {formatPrice(extra.price)} Ft
+                      </p>
+                    </div>
                   </button>
                 ))}
               </div>

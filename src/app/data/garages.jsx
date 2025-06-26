@@ -23,6 +23,48 @@ export const products = {
         src: "/pictures/garages/modena/haz3.png",
         alt: "Modena prémium garázs – modern könnyűszerkezetes autóbeálló tégla vagy kő burkolattal",
       },
+      {
+        id: 4,
+        name: "Modena",
+        src: "/pictures/garages/modena/1.png",
+        alt: "Modena prémium garázs tervrajz és alaprajz",
+      },
+      {
+        id: 5,
+        name: "Modena",
+        src: "/pictures/garages/modena/1.jpg",
+        alt: "Modena prémium garázs valós fotó természetes környezetben",
+      },
+      {
+        id: 6,
+        name: "Modena",
+        src: "/pictures/garages/modena/2.jpg",
+        alt: "Modena garázs valós fotó modern homlokzattal",
+      },
+      {
+        id: 7,
+        name: "Modena",
+        src: "/pictures/garages/modena/3.jpg",
+        alt: "Modena prémium garázs valós fotó kültéri részletekkel",
+      },
+      {
+        id: 8,
+        name: "Modena",
+        src: "/pictures/garages/modena/4.jpg",
+        alt: "Modena garázs valós fotó komplett megjelenéssel",
+      },
+      {
+        id: 9,
+        name: "Modena",
+        src: "/pictures/garages/modena/5.jpg",
+        alt: "Modena prémium garázs valós fotó környezeti illeszkedéssel",
+      },
+      {
+        id: 10,
+        name: "Modena",
+        src: "/pictures/garages/modena/6.jpg",
+        alt: "Modena garázs valós fotó teljes építészeti megoldással",
+      },
     ],
     colors: [
       {
@@ -46,8 +88,7 @@ export const products = {
         ],
       },
     ],
-    extras: []
-     
+    extras: [],
   },
 
   munich: {
@@ -74,6 +115,30 @@ export const products = {
         src: "/pictures/garages/munich/haz3.png",
         alt: "Munich garázs – tárolós modern könnyűszerkezetes autóbeálló",
       },
+      {
+        id: 4,
+        name: "Munich",
+        src: "/pictures/garages/munich/1.jpg",
+        alt: "Munich garázs valós fotó természetes környezetben",
+      },
+      {
+        id: 5,
+        name: "Munich",
+        src: "/pictures/garages/munich/2.jpg",
+        alt: "Munich garázs valós fotó modern autóbeállóval",
+      },
+      {
+        id: 6,
+        name: "Munich",
+        src: "/pictures/garages/munich/3.jpg",
+        alt: "Munich garázs valós fotó tárolóval kombinálva",
+      },
+      {
+        id: 7,
+        name: "Munich",
+        src: "/pictures/garages/munich/4.jpg",
+        alt: "Munich garázs valós fotó komplett megjelenéssel",
+      },
     ],
     colors: [
       {
@@ -97,7 +162,7 @@ export const products = {
         ],
       },
     ],
-    extras: []
+    extras: [],
   },
 
   tihany: {
@@ -123,6 +188,18 @@ export const products = {
         name: "Tihany",
         src: "/pictures/garages/tihany/haz3.png",
         alt: "Tihany garázs – nemes vakolatú, szigetelhető könnyűszerkezetes autóbeálló",
+      },
+      {
+        id: 4,
+        name: "Tihany",
+        src: "/pictures/garages/tihany/1.jpg",
+        alt: "Tihany garázs valós fotó természetes környezetben",
+      },
+      {
+        id: 5,
+        name: "Tihany",
+        src: "/pictures/garages/tihany/2.jpg",
+        alt: "Tihany garázs valós fotó nemes vakolatú külső fallal",
       },
     ],
     colors: [
