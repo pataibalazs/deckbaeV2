@@ -140,10 +140,10 @@ export default function Services() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
       <Head>
-        <title>Deckbae Szolgáltatások – Teljes körű megoldások</title>
+        <title>Deckbae Szolgáltatások - Teljes körű megoldások</title>
         <meta
           name="description"
-          content="Fedezd fel a Deckbae szolgáltatásait: tanácsadás, tervezés, gyártás, kivitelezés és szállítás – mindent egy helyen!"
+          content="Fedezd fel a Deckbae szolgáltatásait: tanácsadás, tervezés, gyártás, kivitelezés és szállítás - mindent egy helyen!"
         />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Deckbae Szolgáltatások" />
