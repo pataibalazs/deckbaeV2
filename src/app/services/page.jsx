@@ -62,10 +62,10 @@ export default function Services() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
       <Head>
-        <title>Deckbae Szolgáltatások – Teljes körű megoldások</title>
+        <title>Deckbae Szolgáltatások - Teljes körű megoldások</title>
         <meta
           name="description"
-          content="Fedezd fel a Deckbae szolgáltatásait: tanácsadás, tervezés, gyártás, kivitelezés és szállítás – mindent egy helyen!"
+          content="Fedezd fel a Deckbae szolgáltatásait: tanácsadás, tervezés, gyártás, kivitelezés és szállítás - mindent egy helyen!"
         />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Deckbae Szolgáltatások" />
@@ -161,7 +161,7 @@ export default function Services() {
           {/* Bal nyíl - fixen a bal oldalon */}
           <button
             onClick={handlePrev}
-            className="fixed left-6 top-1/2 -translate-y-1/2 bg-white bg-opacity-60 hover:bg-opacity-90 rounded-full p-3 shadow-lg"
+            className="fixed left-6 top-1/2 -translate-y-1/2 bg-white bg-opacity-60 hover:bg-opacity-90 rounded-full p-3 shadow-lg cursor-pointer"
             style={{ zIndex: 60 }}
             aria-label="Előző kép"
           >
@@ -189,7 +189,7 @@ export default function Services() {
           {/* Jobb nyíl - fixen a jobb oldalon */}
           <button
             onClick={handleNext}
-            className="fixed right-6 top-1/2 -translate-y-1/2 bg-white bg-opacity-60 hover:bg-opacity-90 rounded-full p-3 shadow-lg"
+            className="fixed right-6 top-1/2 -translate-y-1/2 bg-white bg-opacity-60 hover:bg-opacity-90 rounded-full p-3 shadow-lg cursor-pointer"
             style={{ zIndex: 60 }}
             aria-label="Következő kép"
           >
