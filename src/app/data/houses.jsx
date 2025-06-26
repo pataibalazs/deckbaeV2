@@ -90,12 +90,7 @@ export const products = {
         src: "/pictures/houses/santa-cruz/14.png",
         alt: "Santa Cruz ház 3D alaprajz konyhával és fürdővel",
       },
-      {
-        id: 15,
-        name: "Terv",
-        src: "/pictures/houses/santa-cruz/15.png",
-        alt: "Santa Cruz ház klasszikus alaprajz szobafelosztással",
-      },
+
       {
         id: 16,
         name: "Ház",
@@ -125,6 +120,12 @@ export const products = {
         name: "Ház",
         src: "/pictures/houses/santa-cruz/5.jpg",
         alt: "Santa Cruz könnyűszerkezetes ház valós fotó környezeti illeszkedéssel",
+      },
+      {
+        id: 15,
+        name: "Terv",
+        src: "/pictures/houses/santa-cruz/15.png",
+        alt: "Santa Cruz ház klasszikus alaprajz szobafelosztással",
       },
     ],
     colors: [
@@ -222,12 +223,7 @@ vagy befektetésnek. Lépj kapcsolatba velünk további információért!</p>
         src: "/pictures/houses/oslo/5.png",
         alt: "Modern Oslo ház jobb oldali nézete, sötét tetővel",
       },
-      {
-        id: 6,
-        name: "Minta",
-        src: "/pictures/houses/oslo/6.png",
-        alt: "Oslo ház belső alaprajz két hálószobával és fedett terasszal",
-      },
+
       {
         id: 7,
         name: "Ház",
@@ -263,6 +259,12 @@ vagy befektetésnek. Lépj kapcsolatba velünk további információért!</p>
         name: "Ház",
         src: "/pictures/houses/oslo/6.jpg",
         alt: "Oslo ház valós fotó fedett terasszal és természetes környezettel",
+      },
+      {
+        id: 6,
+        name: "Minta",
+        src: "/pictures/houses/oslo/6.png",
+        alt: "Oslo ház belső alaprajz két hálószobával és fedett terasszal",
       },
     ],
     colors: [
@@ -418,12 +420,7 @@ nyaralónak!</p>
         src: "/pictures/houses/montana/13.png",
         alt: "Montana ház hátsó homlokzata kertkapcsolattal",
       },
-      {
-        id: 14,
-        name: "Légi felvétel",
-        src: "/pictures/houses/montana/14.png",
-        alt: "Légi felvétel a Montana típusú könnyűszerkezetes házról",
-      },
+
       {
         id: 15,
         name: "Ház",
@@ -441,6 +438,12 @@ nyaralónak!</p>
         name: "Ház",
         src: "/pictures/houses/montana/3.jpg",
         alt: "Montana könnyűszerkezetes ház valós fotó kültéri részletekkel",
+      },
+      {
+        id: 14,
+        name: "Légi felvétel",
+        src: "/pictures/houses/montana/14.png",
+        alt: "Légi felvétel a Montana típusú könnyűszerkezetes házról",
       },
     ],
     colors: [

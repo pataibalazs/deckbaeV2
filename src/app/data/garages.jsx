@@ -17,12 +17,7 @@ export const products = {
         src: "/pictures/garages/modena/haz2.png",
         alt: "Modena prémium garázs – modern könnyűszerkezetes autóbeálló tégla vagy kő burkolattal",
       },
-      {
-        id: 3,
-        name: "Modena",
-        src: "/pictures/garages/modena/haz3.png",
-        alt: "Modena prémium garázs – modern könnyűszerkezetes autóbeálló tégla vagy kő burkolattal",
-      },
+
       {
         id: 4,
         name: "Modena",
@@ -64,6 +59,12 @@ export const products = {
         name: "Modena",
         src: "/pictures/garages/modena/6.jpg",
         alt: "Modena garázs valós fotó teljes építészeti megoldással",
+      },
+      {
+        id: 3,
+        name: "Modena",
+        src: "/pictures/garages/modena/haz3.png",
+        alt: "Modena prémium garázs – modern könnyűszerkezetes autóbeálló tégla vagy kő burkolattal",
       },
     ],
     colors: [
@@ -109,12 +110,7 @@ export const products = {
         src: "/pictures/garages/munich/haz2.png",
         alt: "Munich garázs – tárolós modern könnyűszerkezetes autóbeálló",
       },
-      {
-        id: 3,
-        name: "Munich",
-        src: "/pictures/garages/munich/haz3.png",
-        alt: "Munich garázs – tárolós modern könnyűszerkezetes autóbeálló",
-      },
+
       {
         id: 4,
         name: "Munich",
@@ -138,6 +134,12 @@ export const products = {
         name: "Munich",
         src: "/pictures/garages/munich/4.jpg",
         alt: "Munich garázs valós fotó komplett megjelenéssel",
+      },
+      {
+        id: 3,
+        name: "Munich",
+        src: "/pictures/garages/munich/haz3.png",
+        alt: "Munich garázs – tárolós modern könnyűszerkezetes autóbeálló",
       },
     ],
     colors: [
@@ -177,12 +179,7 @@ export const products = {
         src: "/pictures/garages/tihany/haz1.png",
         alt: "Tihany garázs – nemes vakolatú, szigetelhető könnyűszerkezetes autóbeálló",
       },
-      {
-        id: 2,
-        name: "Tihany",
-        src: "/pictures/garages/tihany/haz2.png",
-        alt: "Tihany garázs – nemes vakolatú, szigetelhető könnyűszerkezetes autóbeálló",
-      },
+
       {
         id: 3,
         name: "Tihany",
@@ -200,6 +197,12 @@ export const products = {
         name: "Tihany",
         src: "/pictures/garages/tihany/2.jpg",
         alt: "Tihany garázs valós fotó nemes vakolatú külső fallal",
+      },
+      {
+        id: 2,
+        name: "Tihany",
+        src: "/pictures/garages/tihany/haz2.png",
+        alt: "Tihany garázs – nemes vakolatú, szigetelhető könnyűszerkezetes autóbeálló",
       },
     ],
     colors: [
@@ -239,16 +242,17 @@ export const products = {
         src: "/pictures/garages/toronto/haz1.png",
         alt: "Toronto garázs – masszív, LED világítással és napelemes tetővel ellátott könnyűszerkezetes autóbeálló",
       },
-      {
-        id: 2,
-        name: "Toronto",
-        src: "/pictures/garages/toronto/haz2.png",
-        alt: "Toronto garázs – masszív, LED világítással és napelemes tetővel ellátott könnyűszerkezetes autóbeálló",
-      },
+
       {
         id: 3,
         name: "Toronto",
         src: "/pictures/garages/toronto/haz3.png",
+        alt: "Toronto garázs – masszív, LED világítással és napelemes tetővel ellátott könnyűszerkezetes autóbeálló",
+      },
+      {
+        id: 2,
+        name: "Toronto",
+        src: "/pictures/garages/toronto/haz2.png",
         alt: "Toronto garázs – masszív, LED világítással és napelemes tetővel ellátott könnyűszerkezetes autóbeálló",
       },
     ],
