@@ -46,7 +46,7 @@ export default function Homepage() {
               <div className="xl:w-1/2 mt-8 md:mt-0">
                 <img
                   className="w-full rounded-lg shadow-xl hover:scale-[1.02] transition-transform duration-300"
-                  src="/pictures/houses/oslo/haz.png"
+                  src="/pictures/houses/oslo/1.webp"
                   alt="Könnyűszerkezetes modern ház - Deckbae"
                 />
               </div>
