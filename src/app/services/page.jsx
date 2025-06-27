@@ -1,7 +1,7 @@
 "use client";
 
 import Head from "next/head";
-import ReferenceImageSection from "../components/referenceImageSection";
+import ReferenceImageSection from "../components/ReferenceImageSection";
 
 const services = [
   {
