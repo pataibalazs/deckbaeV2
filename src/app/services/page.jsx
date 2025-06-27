@@ -5,7 +5,7 @@ import ReferenceImageSection from "../components/ReferenceImageSection";
 
 const services = [
   {
-    title: "Lakásfelújítás",
+    title: "Lakásfelújítás asd asd asd ",
     description:
       "Modern, kényelmes és értékálló otthont teremtünk teljes vagy részleges felújítással, igényeihez igazítva.",
     image: "/pictures/references/main_pics/1.webp",
