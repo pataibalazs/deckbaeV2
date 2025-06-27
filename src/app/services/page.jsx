@@ -74,7 +74,6 @@ const referencesList = {
     "/pictures/references/lakasfel/22.webp",
     "/pictures/references/lakasfel/23.webp",
     "/pictures/references/lakasfel/24.webp",
-    "/pictures/references/lakasfel/25.webp",
     "/pictures/references/lakasfel/26.webp",
     "/pictures/references/lakasfel/27.webp",
     "/pictures/references/lakasfel/28.webp",
