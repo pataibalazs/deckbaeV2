@@ -8,42 +8,42 @@ const services = [
     title: "Lakásfelújítás",
     description:
       "Modern, kényelmes és értékálló otthont teremtünk teljes vagy részleges felújítással, igényeihez igazítva.",
-    image: "/pictures/references/main_pics/1.jpg",
+    image: "/pictures/references/main_pics/1.webp",
     hasReferences: true,
   },
   {
     title: "Fa és kőteraszok tervezése és építése",
     description:
       "Teraszokat építünk fa vagy kő burkolattal, a tervezéstől a kivitelezésig, időtálló és esztétikus megoldásokkal.",
-    image: "/pictures/references/main_pics/2.jpg",
+    image: "/pictures/references/main_pics/2.webp",
     hasReferences: true,
   },
   {
     title: "Kertépítés és kert tervezés",
     description:
       "Egyedi stílusú kerteket tervezünk és építünk – akár modern, akár természetes hangulatot szeretne.",
-    image: "/pictures/references/main_pics/3.jpg",
+    image: "/pictures/references/main_pics/3.webp",
     hasReferences: false,
   },
   {
     title: "Épületgépészeti Szolgáltatások",
     description:
       "Teljes körű gépészeti megoldások: fűtés, hűtés, vízellátás, szellőzés – biztonságos, hatékony rendszerekkel.",
-    image: "/pictures/references/main_pics/4.jpg",
+    image: "/pictures/references/main_pics/4.webp",
     hasReferences: true,
   },
   {
     title: "Konyha Tervezés és Szerelés",
     description:
       "Funkcionális és hangulatos konyhákat tervezünk, modern és hagyományos stílusban egyaránt.",
-    image: "/pictures/references/main_pics/5.jpg",
+    image: "/pictures/references/main_pics/5.webp",
     hasReferences: false,
   },
   {
     title: "Napelem",
     description:
       "Teljes körű napelemrendszer-telepítést kínálunk, a villanyszámla csökkentéséért és fenntartható energiahasználatért.",
-    image: "/pictures/references/main_pics/6.jpg",
+    image: "/pictures/references/main_pics/6.webp",
     hasReferences: false,
   },
 ];
