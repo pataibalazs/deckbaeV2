@@ -5,7 +5,7 @@ export default function HeroWithImage() {
         <div className="px-6 md:pb-10 pt-10 md:pt-0 lg:pb-24 md:col-span-6 sm:pb-32 lg:col-span-6 lg:px-8 lg:pt-16 lg:pb-48 xl:col-span-6">
           <div className="mx-auto max-w-lg lg:mx-0">
             <h1 className="text-left xs:text-center lg:text-left sm:mt-24 text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:mt-10 sm:text-7xl">
-              Tervezd meg és építsd fel álmaid otthonát!s
+              Tervezd meg és építsd fel álmaid otthonát!
             </h1>
             <p className="mt-8 mb-2 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
               A Deckbae prémium minőségű könnyűszerkezetes házakat kínál modern
