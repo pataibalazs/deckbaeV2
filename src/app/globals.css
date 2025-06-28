@@ -19,6 +19,16 @@ html {
     color: #000000 !important;
     -webkit-text-fill-color: #000000;
   }
+
+  .text-red-600 {
+    color: #dc2626 !important;
+    -webkit-text-fill-color: #dc2626;
+  }
+
+  .text-red-500 {
+    color: #ef4444 !important;
+    -webkit-text-fill-color: #ef4444;
+  }
 }
 
 @import "tailwindcss";
