@@ -14,6 +14,11 @@ html {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
   }
+
+  .text-black {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000;
+  }
 }
 
 @import "tailwindcss";
