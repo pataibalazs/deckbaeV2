@@ -2,6 +2,20 @@ html {
   overflow-y: scroll;
 }
 
+@supports (-webkit-touch-callout: none) {
+  /* Fix for iOS Safari viewport */
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* Force background colors to work */
+  .bg-gray-100 {
+    background-color: #f3f4f6 !important;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+}
+
 @import "tailwindcss";
 
 :root {
