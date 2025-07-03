@@ -1,5 +1,3 @@
-import Link from "next/link";
-import FAQ from "./components/FAQ";
 import HeroWithImage from "./components/HeroWithImage";
 import Features from "./components/Features";
 import Options from "./components/Options";

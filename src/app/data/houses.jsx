@@ -341,23 +341,12 @@ nyaralónak!</p>
     rating: 4,
     images: [
       {
-        id: 1,
-        name: "Ház külső",
-        src: "/pictures/houses/montana/2.webp",
-        alt: "Montana könnyűszerkezetes ház külső homlokzata modern dizájnnal",
-      },
-      {
         id: 2,
         name: "Alaprajz",
         src: "/pictures/houses/montana/1.webp",
         alt: "Montana ház alaprajz amerikai konyhával és két hálószobával",
       },
-      {
-        id: 3,
-        name: "Nappali",
-        src: "/pictures/houses/montana/3.webp",
-        alt: "Tágas nappali látszó gerendákkal és modern bútorzattal",
-      },
+
       {
         id: 4,
         name: "Konyha",
@@ -510,6 +499,18 @@ stílussal!</p>
     price: "Bruttó 47.300.000-től",
     rating: 4,
     images: [
+      {
+        id: 10,
+        name: "Ház külső",
+        src: "/pictures/houses/montana/2.webp",
+        alt: "Montana könnyűszerkezetes ház külső homlokzata modern dizájnnal",
+      },
+      {
+        id: 11,
+        name: "Nappali",
+        src: "/pictures/houses/montana/3.webp",
+        alt: "Tágas nappali látszó gerendákkal és modern bútorzattal",
+      },
       {
         id: 1,
         name: "Ház",
