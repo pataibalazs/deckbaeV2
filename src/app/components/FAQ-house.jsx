@@ -39,12 +39,10 @@ export default function FAQHouse() {
       {faqs.map((faq, index) => (
         <li key={index} className="shadow-md">
           <details className="group w-full rounded-md">
-            <summary className="flex items-center gap-3 px-4 sm:px-6 py-3 sm:py-4 font-medium marker:content-none cursor-pointer w-full bg-red-500 rounded-md group-open:rounded-b-none">
+            <summary className="flex items-start gap-3 px-4 sm:px-6 py-3 sm:py-4 font-medium marker:content-none cursor-pointer w-full bg-red-500 rounded-md group-open:rounded-b-none">
               <svg
-                className="w-5 h-5 transition-transform duration-200 group-open:rotate-90"
+                className="w-5 h-5 transition-transform duration-200 group-open:rotate-90 flex-shrink-0 mt-1"
                 xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="12"
                 fill="currentColor"
                 viewBox="0 0 16 16"
               >

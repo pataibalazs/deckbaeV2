@@ -2,20 +2,17 @@ import Link from "next/link";
 
 const faqs = [
   {
-    question: "Mennyi időt vesz igénybe a kivitelezés a megrendeléstől számítva?",
-    answer:
-      "4-6 Hét elkészülési ideje az ALAP modellnek.",
+    question:
+      "Mennyi időt vesz igénybe a kivitelezés a megrendeléstől számítva?",
+    answer: "4-6 Hét elkészülési ideje az ALAP modellnek.",
   },
   {
-    question:
-      "Mennyi idő a telepítés?",
-    answer:
-      "Legtöbb pergola telepítése egy napon belül megtörténik.",
+    question: "Mennyi idő a telepítés?",
+    answer: "Legtöbb pergola telepítése egy napon belül megtörténik.",
   },
   {
     question: "Milyen engedélyek szükségesek a pergolához?",
-    answer:
-      `A Deckbae Pergolák telepíthetőek "mobil" épületként (Pl: mobilgarázs) ezért nem engedély köteles.`,
+    answer: `A Deckbae Pergolák telepíthetőek "mobil" épületként (Pl: mobilgarázs) ezért nem engedély köteles.`,
   },
   {
     question: "Szükséges-e hozzá beton alap?",
@@ -26,7 +23,7 @@ const faqs = [
     question: "Mit tartalmaznak az árak?",
     answer:
       "Az árak magukban foglalják a termékek anyag, gyártási, szállítási, telepítési díjat, 27%-os áfát.",
-  }
+  },
 ];
 
 export default function FAQPergola() {
@@ -50,12 +47,10 @@ export default function FAQPergola() {
       {faqs.map((faq, index) => (
         <li key={index} className="shadow-md">
           <details className="group w-full rounded-md">
-            <summary className="flex items-center gap-3 px-4 sm:px-6 py-3 sm:py-4 font-medium marker:content-none cursor-pointer w-full bg-red-500 rounded-md group-open:rounded-b-none">
+            <summary className="flex items-start gap-3 px-4 sm:px-6 py-3 sm:py-4 font-medium marker:content-none cursor-pointer w-full bg-red-500 rounded-md group-open:rounded-b-none">
               <svg
-                className="w-5 h-5 transition-transform duration-200 group-open:rotate-90"
+                className="w-5 h-5 transition-transform duration-200 group-open:rotate-90 flex-shrink-0 mt-1"
                 xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="12"
                 fill="currentColor"
                 viewBox="0 0 16 16"
               >

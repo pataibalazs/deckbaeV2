@@ -5,7 +5,8 @@ const people = [
     name: "Molnár Patrik",
     role: "Kivitelező",
     imageUrl: "/pictures/patrik.jpg",
-    bio: `Molnár Patrik vagyok, a Deckbae Global Kft. alapítója és projektmenedzsere. \n Műszaki tapasztalataimat elsősorban a szerkezeti ácsmunkákra és a kültéri burkolatok kivitelezésére alapoztam. Vezettem generálkivitelező és ács cégeket Torontóban, Sydneyben, Los Angelesben, jelenleg pedig Budapesten dolgozom. \n Alig várom, hogy együtt dolgozhassunk a következő projekteden!`,
+    bio: `Molnár Patrik vagyok, a Deckbae Global Kft. alapítója és projektmenedzsere.
+Műszaki tapasztalataimat elsősorban a szerkezeti ácsmunkákra és a kültéri burkolatok kivitelezésére alapoztam. Vezettem generálkivitelező és ács cégeket Torontóban, Sydneyben, Los Angelesben, több mint 150 ház építésénél vettem részt, jelenleg pedig Budapesten dolgozom. Alig várom, hogy együtt ötletelhessünk a következő projekteden, legyen szó házról, pergoláról vagy teraszról!`,
     xUrl: "#",
     linkedinUrl: "#",
   },
